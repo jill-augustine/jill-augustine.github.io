@@ -1,3 +1,0 @@
-# Useful Links
-
-I am often asked about which resources I use to improve and maintain my data science skills. Here is a list of websites I often use and would recommend.
