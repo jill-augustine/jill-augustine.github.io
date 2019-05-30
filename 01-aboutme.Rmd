@@ -1,7 +1,45 @@
 # About Me {-}
 
-<img src="images/me777.jpg" alt="drawing" class="center"/>
+<img src="images/me4234.jpg" alt="drawing" class="center"/>
 <br>
-My name is Jillian Augustine and I am a data scientist the Advanced Analytics & AI Team at A1 Telekom Austria. I am a biochemist and molecular biologist by training who, after my PhD, jumped feet first into the world of Data Science in Telecommunications. I'm always looking for something new to learn (really, it's not just something I write on my CV). 
+<h3>Jillian Augustine, PhD.</h3>
+I am a data scientist and question answerer. I received my PhD in Molecular Biology from the University of Vienna (Austria) and my BSc from the University of Leeds (UK) during which I also studied at McGill University (Montreal, Canada).
 
-I chose the fields of biological research, and then data science because I love data to answer questions and gain new insights and learn more. To an extent, I think numbers are just numbers to be enhanced by domain knowledge and enjoy applying the skills I've a acquired in diverse range of projects. I am a keen public speaker and welcome opportunities to improve inclusion at public events. 
+My main interest (and the reason I became a data scientist) is using data to answer questions regardless of the industry. I have experience working in both telecommunications and the Paper & Packaging industries. In particular I am passionate about data understanding and communication both to stakeholders and within data teams. My professional approach to data science is to use the tool that gets the job done given any constraints from team members and stakeholders. Here is a list of my current go-to tools.
+
+<strong>Data Manipulation:</strong>
+
+- python
+- Apache Spark
+- R
+- any combination of the above
+- Microsoft Excel (for team members accustomed to pivot tables)
+ 
+<strong>(Real-Time) Data Collection/Extraction:</strong>
+
+- SQL (Hive)
+- Apache Kafka
+ 
+<strong>Data Storage:</strong>
+
+- parquet files whenever possible
+- Hadoop Distributed File System (HDFS)
+- Linux computer clusters
+ 
+<strong>Data Visualisation:</strong>
+
+- ggplot2
+ 
+<strong>Machine Learning:</strong>
+
+- caret
+- (scikit-learn)
+ 
+<strong>Documentation/Project Work:</strong>
+
+- R Markdown
+- Confluence
+- Jira
+- Git
+
+Another interest of mine is increasing the inclusivity of working groups through open exchanges and active diversificartion. I try to make my presentations are accessible as possible and welcome feedback as to how I can improve this further. I welcome opportunities to speak about my work at conferences and meetups. Please get in touch through [Twitter](https://twitter.com/jill_augustine) or [LinkedIn](https://www.linkedin.com/in/jillianaugustine/) if you would like to know more.
