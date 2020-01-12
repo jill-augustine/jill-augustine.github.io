@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html >
-
+<html lang="" xml:lang="">
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Data Exploration with Shiny | Jillian Augustine // Data Scientist</title>
-  <meta name="description" content="">
-  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+  <meta name="description" content="" />
+  <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Data Exploration with Shiny | Jillian Augustine // Data Scientist" />
   <meta property="og:type" content="book" />
@@ -25,13 +24,13 @@
 
 
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html">
-<link rel="next" href="useful-links.html">
+<link rel="prev" href="index.html"/>
+<link rel="next" href="my-videos.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -39,6 +38,9 @@
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -77,6 +79,11 @@
 <li class="chapter" data-level="" data-path="data-exploration-with-shiny.html"><a href="data-exploration-with-shiny.html#when"><i class="fa fa-check"></i>When</a></li>
 <li class="chapter" data-level="" data-path="data-exploration-with-shiny.html"><a href="data-exploration-with-shiny.html#why"><i class="fa fa-check"></i>Why</a></li>
 <li class="chapter" data-level="" data-path="data-exploration-with-shiny.html"><a href="data-exploration-with-shiny.html#how"><i class="fa fa-check"></i>How</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="my-videos.html"><a href="my-videos.html"><i class="fa fa-check"></i>My Videos</a><ul>
+<li class="chapter" data-level="" data-path="my-videos.html"><a href="my-videos.html#mondi-wearedevelopers-the-art-science-and-maths-of-doing-data-science-november-2019"><i class="fa fa-check"></i>MONDI &amp; WeAreDevelopers: the art, science and maths of doing data science | November 2019</a></li>
+<li class="chapter" data-level="" data-path="my-videos.html"><a href="my-videos.html#big-data-ldn-2019-13th-november-2019"><i class="fa fa-check"></i>Big Data LDN 2019 | 13th November 2019</a></li>
+<li class="chapter" data-level="" data-path="my-videos.html"><a href="my-videos.html#women-techmakers-vienna-2019-9th-march-2019"><i class="fa fa-check"></i>Women Techmakers Vienna 2019 | 9th March 2019</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="useful-links.html"><a href="useful-links.html"><i class="fa fa-check"></i>Useful Links</a><ul>
 <li class="chapter" data-level="" data-path="useful-links.html"><a href="useful-links.html#documentation"><i class="fa fa-check"></i>Documentation</a></li>
@@ -165,16 +172,18 @@ Figure 3: Checkboxes are used to select which columns of data to load. This data
         </div>
       </div>
 <a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="useful-links.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="my-videos.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -182,12 +191,12 @@ gitbook.start({
 "github": false,
 "facebook": true,
 "twitter": true,
-"google": false,
 "linkedin": true,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"],
+"google": false
 },
 "fontsettings": {
 "theme": "white",
@@ -199,6 +208,10 @@ gitbook.start({
 "text": null
 },
 "history": {
+"link": null,
+"text": null
+},
+"view": {
 "link": null,
 "text": null
 },
