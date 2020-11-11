@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> A Data Exploration Web App —   | Jill Augustine</title>
+<meta name="description" content="">
+
+<link rel="canonical" href="/projects/shiny.html">
+<link rel="icon" type="image/jpeg" href="/assets/img/pudhina.jpg"/>
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="stylesheet" href="/assets/vendor/highlight/styles/agate.css">
+
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+<header class="header">
+<div class="navigation">
+<a href="/" class="logo">Jill Augustine</a>
+<ul class="menu">
+
+<li class='menu__entry'><a href="/" >
+  Home
+</a></li>
+
+<li class='menu__entry'><a href="/about.html" >
+  About Me
+</a></li>
+
+<li class='menu__entry'><a href="/projects.html" >
+  Projects
+</a></li>
+
+<li class='menu__entry'><a href="/toolbox.html" >
+  Toolbox
+</a></li>
+
+<li class='menu__entry'><a href="resources.html" >
+  Useful Links
+</a></li>
+
+</ul>
+</div>
+
+<div>
+<ul class="social-links">
+
+
+<a href="https://github.com/jill-augustine" class="social-links__entry" target="_blank">
+<i class="fa fa-github"></i>
+</a>
+
+
+<a href="https://in.linkedin.com/in/jillianaugustine" class="social-links__entry" target="_blank">
+<i class="fa fa-linkedin"></i>
+</a>
+
+
+<a href="https://twitter.com/" class="social-links__entry" target="_blank">
+<i class="fa fa-twitter"></i>
+</a>
+
+</ul>
+</div>
+</header>
+<br>
+<div class="navigation">
+  <ul class="section_menu">
+  
+  <li class='menu__entry'><a href="/projects/shiny.html"  class="highlight">
+    A Shiny Web App
+  </a></li>
+  
+  <li class='menu__entry'><a href="/projects/euvsvirus.html" >
+    EU vs Virus Web Scraper
+  </a></li>
+  
+  </ul>
+</div>
+<br>
+
+<h1 class="page-title">
+<div class="page-title__text">A Data Exploration Web App</div>
+<div class="page-title__subtitle"></div>
+</h1>
+
+<p>If what you read below interests you, download the repository <a href="https://github.com/jill-augustine/dataEx_Shiny">here</a> which includes the code used to create the app as well as sample datasets.</p>
+
+<h2 id="what--">What {-}</h2>
+
+<p>(ref:shinydataEx2) Data can be loaded by providing a dataset ID number and a date range.</p>
+
+<p>This is a web application built with Shiny and R and designed to aid exploration of large datasets. With the example data provided you can view the music streaming habits of two users. Data for the two users is provided with the dataset IDs ‘eg01’ and ‘eg02’. Using the app you can see in which months they listened to which genres of music. You can also dive down to the individual months and days for more detail.</p>
+
+<p>(ref:shinydataEx6) Visualising customer data per day in graphical and tabular form.</p>
+
+<p>Behind the web app is a data pipeline which, upon pressing a button in the app, starts a Spark job. In this job, <a href="https://github.com/jill-augustine/dataEx_Shiny/blob/master/ja_dataEx_dates2parquet_v2.py">a script</a> generates and runs SQL queries on a database. It then saves the results of the queries as parquets, and merges and repartitions the parquets to optimise performance. After checking for errors, it automatically sends emails a unique dataset ID to the person who requested the data. Using this ID the user can reenter the app to view the data. Finally the cleans up the disk space removing any temporary files created.</p>
+
+<p>The app also contains logging functionality. Everytime data is requested or viewed using the app, a record is added to the relevant log (logs_req.txt and logs_read.txt). This way, activity of the app can be tracked. Don’t forget, while most of the files in the app can be read only, users of the app must have permission to write to this file.</p>
+
+<h2 id="who--">Who {-}</h2>
+
+<p>This web application is designed for anyone who wants to have a summarised look at large amounts of data with the help of classic data visualisations. This app is also useful for users who prefer to work with spreadsheets because the raw data are also exportable as a ;-delimited file.</p>
+
+<p>(ref:shinydataEx8) Checkboxes are used to select which columns of data to load. This data can then be exported for use, for example, in Microsoft Excel.</p>
+
+<h2 id="where--">Where {-}</h2>
+
+<p>I’m interpretting the question as “where can I run this app”? If you clone the github repository you will also have a copy of the two example datasets. You can then run the app on your local machine from RStduio using the command <code class="language-plaintext highlighter-rouge">shiny::runApp("path_to_dataEx_app_split_folder", launch.browser = TRUE)</code>.</p>
+
+<p>The app was designed to be connected to a hadoop distributed file system (HDFS) and spark session.</p>
+
+<h2 id="when--">When {-}</h2>
+
+<p>Intepretting this question as something to do with time, this app took me 4 months working on and off. I initially made a prototype which looked quite different. I then asked for and incorporated feedback which resulted in the app in it’s current form. It was my first Shiny Web Application and I am very happy with the functionality of it.</p>
+
+<h2 id="why--">Why {-}</h2>
+
+<p>We often collect very large amounts of data that cannot be understood simply by looking at them. It helps to summarise theme data in the form of visualisations. Moreover, in cases where we have many customers or some other kind of category, it helps to be able to create individual reports.</p>
+
+<p>Why interactive? Too much data can be overwhelming. It’s much better to allow the end users to decide exactly what they want to visualise/export.</p>
+
+<h2 id="how--">How {-}</h2>
+
+<p>I chose Shiny to build this app because it seemed realtively simple to start to use (compared to other app making tools). I found the documentation and tutorials about Shiny very clear. Furthermore, I liked the range of themes to select from which meant I did not have to personalise all aspects of the user interface.</p>
+
+
+
+<div class="about">
+<div class="about__devider">*****</div>
+<div class="about__text">
+<div id="describe-text">
+    <strong> &copy; 2020 Jillian Augustine </strong>
+	<br>Theme adapted from <strong><a href="https://github.com/knhash/Pudhina"> Pudhina</a> </strong>
+</div>
+</div>
+</div>
+
+</div>
+<script src="/assets/vendor/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

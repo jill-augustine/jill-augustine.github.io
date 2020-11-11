@@ -1,0 +1,37 @@
+<header class="header">
+<div class="navigation">
+<a href="{{ '/' | prepend: site.baseurl }}" class="logo">{{ site.title }}</a>
+<ul class="menu">
+{% for item in site.data.navigation %}
+<li class='menu__entry'><a href="{{ item.link}}" {% if page.url == item.link %} class="highlight"{% endif %}>
+  {{ item.name }}
+</a></li>
+{% endfor %}
+</ul>
+</div>
+
+<div>
+<ul class="social-links">
+{% if site.author.email %}
+<a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
+<i class="fa fa-envelope-square"></i>
+</a>
+{% endif %}
+{% if site.author.github %}
+<a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+<i class="fa fa-github"></i>
+</a>
+{% endif %}
+{% if site.author.linkedin %}
+<a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
+<i class="fa fa-linkedin"></i>
+</a>
+{% endif %}
+{% if site.author.linkedin %}
+<a href="https://twitter.com/{{ site.author.twiiter }}" class="social-links__entry" target="_blank">
+<i class="fa fa-twitter"></i>
+</a>
+{% endif %}
+</ul>
+</div>
+</header>

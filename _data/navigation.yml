@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: About Me
+  link: /about.html
+- name: Projects
+  link: /projects.html
+- name: Toolbox
+  link: /toolbox.html
+- name: Useful Links
+  link: resources.html
