@@ -1,10 +1,10 @@
 - name: Home
   link: /
-- name: About Me
-  link: /about.html
+# - name: About Me
+#   link: /about.html
 - name: Projects
   link: /projects.html
-- name: Toolbox
+- name: Data Science Toolbox
   link: /toolbox.html
 - name: Useful Links
   link: resources.html

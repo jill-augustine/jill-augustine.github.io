@@ -1,10 +1,75 @@
 /* Colours */
-  .highlight {
+/*  .highlight {
+    color: rgb(197, 134, 192); }
+*/
+
+.highlight {
     color: #16a085; }
 
 .profile_pic {
     border: none;
     box-sizing: border-box;
     border-radius: 50%;
-    margin: auto;}
-    
+    max-width: 300px;
+    max-height: 300px;
+    margin: 32px auto;}
+
+/* leaves space left and right in all layouts based on default */
+.wrapper {padding-left: 24px;
+      padding-right: 24px; }
+
+/*p, ul, ol, dl, h1, h2, h3, h4, h5, h6  {
+    padding: 0% 2%; } */
+
+body {
+    font-family: 'Catamaran', sans-serif;  
+    /*font-family: 'Manrope', sans-serif;  */
+    /*font-family: 'Varta', sans-serif;  */
+    /*font-family: 'Assistant', sans-serif; */
+    font-size: 100%;
+    color: rgb(212,212,212);
+    background-color: rgb(30, 30, 30); }
+
+
+a {
+    color: #6189c5
+}
+
+.page-title__subtitle {
+    color: #888585; 
+}
+
+.project_menu {
+    font-size: 110%;
+    margin: 0px;
+    margin-top: 6px;
+    padding: 0px;
+    list-style-type: none; }
+
+/*
+
+this should be the same as what is specified for body
+strong { 
+    color: rgb(212,212,212);
+}
+
+a {
+    color: rgb(86, 157, 214);
+}
+
+a {
+    color: rgb(86, 157, 214);
+}
+
+.logo  {
+    color: rgb(206, 145,120)
+}
+
+.page-title__text {
+    color: rbg(156, 220, 254); }
+
+.page-title__subtitle {
+    font-weight: 400;
+    font-size: 75%;
+    color: rgb(220, 220, 170); }
+    */

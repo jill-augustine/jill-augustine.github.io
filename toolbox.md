@@ -1,9 +1,8 @@
 ---
 layout: page
-title: My Data Science Toolbox
+title: Data Science Toolbox
+subtitle: A list of my current go-to tools
 ---
-
-Here is a list of my current go-to tools.
 
 <strong>Data Manipulation:</strong>
 
@@ -27,6 +26,7 @@ Here is a list of my current go-to tools.
 
 - ggplot2
 - plotly (python API)
+- seaborn
  
 <strong>Machine Learning:</strong>
 

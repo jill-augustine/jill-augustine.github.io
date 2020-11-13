@@ -1,20 +1,19 @@
----
-layout: default
----
-<br>
-<div class="navigation">
-  <ul class="section_menu">
-  {% for item in site.data.project_navigation %}
-  <li class='menu__entry'><a href="{{ item.link}}" {% if page.url == item.link %} class="highlight"{% endif %}>
-    {{ item.name }}
-  </a></li>
-  {% endfor %}
-  </ul>
-</div>
-<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include meta_tags/base.html %}
+{% include jillstyling.html %}
+</head>
+<body>
+<div class="wrapper">
+{% include projectheader.html %}
 
 {% include page/title.html %}
 
 {{ content }}
 
-{% include page/footer.html %}
+</div>
+{% include externals/scripting.html %}
+
+</body>
+</html>

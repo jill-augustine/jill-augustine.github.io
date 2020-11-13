@@ -1,6 +1,6 @@
 ---
 layout: project
-title: A Data Exploration Web App
+title: A Data Exploration App
 ---
 
 If what you read below interests you, download the repository [here](https://github.com/jill-augustine/dataEx_Shiny) which includes the code used to create the app as well as sample datasets.

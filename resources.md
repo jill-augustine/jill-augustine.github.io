@@ -5,9 +5,9 @@ title: Useful Links
 
 I am often asked about which resources I use to improve and maintain my data science skills. Here is a list of websites I often use and would recommend.
 
-## Documentation {-}
+<h2 class=highlight>Documentation</h2>
 
-Whenever I am coding I have mutliple documentation pages open. It's not possible to remember how every single function is used. Also clicking through the "related functions" lets me disocver new functions which are sometimes even more suited to what I want to do. 
+Whenever I am coding I have mutliple documentation pages open. It's not possible to remember how every single function is used. Also clicking through the "related functions" lets me discover new functions which are sometimes even more suited to what I want to do. 
 
 [RDocumentation](https://www.rdocumentation.org/)
 
@@ -45,7 +45,7 @@ This is a question and answer site about a range of coding topics. It's not a si
 
 A collection of video and written tutorials great for helping you develop shiny web applications.
 
-## Books {-}
+<h2 class=highlight>Books</h2>
 
 [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
@@ -63,7 +63,7 @@ I've not fully explored this yet but it seems like a great resource on how to en
 
 This book by [Winston Chang](https://twitter.com/winston_chang) should be your first reference when trying to work out how to do certain things using ggplot2.
 
-## Social {-}
+<h2 class=highlight>Social</h2>
 
 [Twitter](https://twitter.com/)
 
@@ -89,7 +89,7 @@ Events ranging from beginner to advanced on different R topics.
 
 I've not been to this series of meetups but I've heard great things about it.
 
-## Podcasts {-}
+<h2 class=highlight>Podcasts</h2>
 
 [Data Stories](http://datastori.es/)
 
@@ -103,7 +103,7 @@ This podcast is an intermediate level podcast about different machine learning r
 
 If you're curious about the role of data in the real world, this podcast is for you.
 
-## Cheatsheets {-}
+<h2 class=highlight>Cheatsheets</h2>
 
 [R Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 
