@@ -2,3 +2,7 @@
   link: /projects/shiny.html
 - name: EU vs Virus Web Scraper
   link: /projects/euvsvirus.html
+- name: Plotly Wrapper
+  link: /projects/autoplot.html
+- name: Building This Website
+  link: /projects/website.html

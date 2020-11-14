@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Useful Links
+title: Useful Resources
+subtitle: A list of websites I often use and recommend
 ---
-
-I am often asked about which resources I use to improve and maintain my data science skills. Here is a list of websites I often use and would recommend.
-
 <h2 class=highlight>Documentation</h2>
 
 Whenever I am coding I have mutliple documentation pages open. It's not possible to remember how every single function is used. Also clicking through the "related functions" lets me discover new functions which are sometimes even more suited to what I want to do. 

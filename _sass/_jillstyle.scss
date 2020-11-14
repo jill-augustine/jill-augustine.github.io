@@ -46,6 +46,32 @@ a {
     padding: 0px;
     list-style-type: none; }
 
+/* =Small screen *//*************************************************************/
+@media (max-width: 500px) {
+    .logo {
+        font-size: 250%;
+    }
+
+    .page-title__text {
+      font-size: 110%; 
+      line-height: 110%;
+    }
+
+    .page-title__subtitle {
+        font-size: 55%; }
+
+    .menu {
+        font-size: 125%;}
+
+    .project_menu {
+        font-size: 100%;
+    }
+
+    .social-links {
+        font-size: 150%;
+        margin: auto auto; }
+  }
+
 /*
 
 this should be the same as what is specified for body

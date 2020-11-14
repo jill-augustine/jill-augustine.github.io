@@ -1,6 +1,7 @@
 # Jeykll files
 .jekyll-cache/*
 
+
 # History files
 .Rhistory
 .Rapp.history

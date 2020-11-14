@@ -4,7 +4,7 @@
 #   link: /about.html
 - name: Projects
   link: /projects.html
-- name: Data Science Toolbox
+- name: Toolbox
   link: /toolbox.html
-- name: Useful Links
+- name: Resources
   link: resources.html
