@@ -2,6 +2,8 @@
 layout: project
 title: A Data Exploration App
 subtitle: November 2018
+date: 2018-11-01 00:00:00 +0000
+tag: project
 ---
 
 If what you read below interests you, download the repository [here](https://github.com/jill-augustine/dataEx_Shiny) which includes the code used to create the app as well as sample datasets.

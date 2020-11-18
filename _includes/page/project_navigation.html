@@ -1,0 +1,10 @@
+<div class="navigation">
+    <ul class='project_menu'>
+    {% for item in site.data.project_navigation %}
+    <li class='menu__entry'><a href="{{ item.link}}" {% if page.url == item.link %} class="highlight"{% endif %}>
+      {{ item.name }}
+    </a></li>
+    {% endfor %}
+    </ul>
+</div>
+<br>

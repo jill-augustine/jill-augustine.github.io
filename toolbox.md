@@ -4,36 +4,36 @@ title: Data Science Toolbox
 subtitle: A list of my current go-to tools
 ---
 
-<strong>Data Manipulation:</strong>
+## Data Manipulation
 
 - pandas, numpy
 - Apache Spark
 - tidyverse
 - Microsoft Excel (for team members accustomed to pivot tables)
  
-<strong>(Real-Time) Data Collection/Extraction:</strong>
+## (Real-Time) Data Collection/Extraction
 
 - SQL (Hive)
 - Apache Kafka
  
-<strong>Data Storage:</strong>
+## Data Storage
 
 - parquet files
 - Hadoop Distributed File System (HDFS)
 - SQL databases
  
-<strong>Data Visualisation:</strong>
+## Data Visualisation
 
 - ggplot2
 - plotly (python API)
 - seaborn
  
-<strong>Machine Learning:</strong>
+## Machine Learning
 
 - caret
 - scikit-learn
  
-<strong>Documentation & Project Work:</strong>
+## Documentation & Project Work
 
 - R Markdown
 - Jupyter Notebooks
