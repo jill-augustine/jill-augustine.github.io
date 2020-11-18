@@ -1,0 +1,58 @@
+- name: '#rstats'
+- name: '@hadleywickham'
+  description: All things R Tidyverse
+- name: '@daniela_witten'
+  description: Author of ISLR
+- name: '@rasbt'
+  description: Sebastian Rascka
+- name: '@numpy_team'
+- name: '@pandas_dev'
+- name: '@code'
+  description: Visual Studio Code - Good to know about the latest features and releases
+- name: '@moritz_stefaner'
+  description: Host of DataStories
+- name: '@FILWD'
+  description: Enrico Bertini - Host of DataStories
+- name: '@datastories'
+- name: '@ViennaDSG'
+- name: '@Dhavide Aruliah'
+  description: I learned pandas fundamentals from Dhavide
+- name: '@topepos'
+  description: Max Kuhn - Creator of caret'
+- name: '@PyData'
+- name: '@ProjectJupyter'
+  description: Good to know about the latest features and releases
+- name: '@GoogleAI'
+- name: '@dataandme'
+  description: Mara Averick
+- name: '@minebocek'
+  description: Mine Çetinkaya-Rundel
+- name: '@CVWickham'
+  description: Charlotte Wickham
+- name: '@StatGarrett'
+  description: Garrett Grolemund
+- name: '@kaggle'
+- name: '@AndrewYNg'
+  description: Author of the highly-recommended Coursera course on Machine Learning
+- name: '@wesmckinn'
+  description: Wes McKinney - Creator of pandas
+- name: '@juliasilge'
+- name: '@chrisalbon'
+  description: Author of the Machine Learning Flashcards
+- name: '@mathbabedotorg'
+  description: Cathy O'Neil - Author of "Weapons of Math Destruction"
+- name: '@amuellerml'
+  description: Andreas Mueller
+- name: '@hugobowne'
+  description: Hugo Bowne-Anderson
+- name: '@FiveThirtyEight'
+  description: Data-Focussed Current Affairs
+- name: '@rstudio'
+  description: Good to know about the latest features and releases
+- name: '@vboykis'
+  description: Vicky Boykis
+- name: '@csdoctorsister'
+  description: Dr Brandeis Marshall
+
+
+

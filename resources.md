@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Useful Resources
-subtitle: A list of websites I often use and recommend
+subtitle: A list of resources I often use and recommend
 headings: [Documentation, Books, Social, Podcasts, Cheatsheets]
 ---
 <div class="navigation">
@@ -88,8 +88,7 @@ A collection of video and written tutorials great for helping you develop shiny 
 
 Books which are freely available from the author are highlighted.
 
-[An Introduction to Statistical Learning - Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani](https://www.goodreads.com/book/show/17397466-an-introduction-to-statistical-learning)
-<div class=highlight>Free from Gareth James's academic website</div>
+<p><a href="https://www.goodreads.com/book/show/17397466-an-introduction-to-statistical-learning">An Introduction to Statistical Learning - Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani</a><span class=highlight> (Free from Gareth James's academic website)</span></p>
 
 This book is an <strong>excellent</strong> resource for understanding the statistical fundamentals of the most commonly used machine learning algorithms. I consider it a must read. It also comes with lab exercises in R but the book is great based on its mathematical and statistic introductions alone.
 
@@ -97,21 +96,17 @@ This book is an <strong>excellent</strong> resource for understanding the statis
 
 I like this book for the step by step calculations of core statistics such as R-squared and also has detailed walkthroughs of hypothesis testing.
 
-[Hands-On Programming with R - Garrett Grolemund](https://rstudio-education.github.io/hopr/)
-<div class=highlight>Free</div>
+<p><a href="https://rstudio-education.github.io/hopr/">Hands-On Programming with R - Garrett Grolemund</a><span class=highlight> (Free)</span></p>
 
 This book takes you from the <strong>absolute</strong> beginning with zero coding knowledge. A great place to start learning R.
 
-[R for Data Science - Hadley Wickham & Garret Grolemund](https://r4ds.had.co.nz/)
-<div class=highlight>Free</div>
+<p><a href="https://r4ds.had.co.nz/">R for Data Science - Hadley Wickham &amp; Garret Grolemund</a><span class=highlight> (Free)</span></p>
 A good allrounder book on using R for data science. It comes with lots of code snippits for you to try our yourself.
 
-[Advanced R - Hadley Wickham](https://adv-r.hadley.nz/)
-<div class=highlight>Free</div>
+<p><a href="https://adv-r.hadley.nz/">Advanced R - Hadley Wickham</a><span class=highlight> (Free)</span></p>
 This book is on my reading list. I know colleagues who refer to it often for more advanced topics.
 
-[Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
-<div class=highlight>Free</div>
+<p><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a><span class=highlight> (Free)</span></p>
 I've not read it yet myself. I heard it is a very comprehensive resource for data science in python.
 
 [Python Machine Learning - Sebastian Raschka](https://sebastianraschka.com/books.html)
@@ -126,16 +121,13 @@ If you are like me and want to understand the inner workings of Python, this is 
 
 Because we are not doing data science in an isolated bubble. Our decisions have consequenses and this book is a great start to being aware of them.
 
-[Fundamentals of Data Visualization - Claus O. Wilke](https://serialmentor.com/dataviz)
-<div class=highlight>Free</div>
+<p><a href="https://serialmentor.com/dataviz">Fundamentals of Data Visualization - Claus O. Wilke</a><span class=highlight> (Free)</span></p>
 I've not fully explored this yet but it seems like a great resource on how to ensure your data visualisations are as communicative as possible and tell the story you want to tell.
 
-[R Graphics Cookbook](https://r-graphics.org/)
-<div class=highlight>Free</div>
-This book by [Winston Chang](https://twitter.com/winston_chang) should be your first reference when trying to work out how to do certain things using ggplot2.
+<p><a href="https://r-graphics.org/">R Graphics Cookbook - Winston Chang</a><span class=highlight> (Free)</span></p>
+This book should be your first reference when trying to work out how to do certain things using ggplot2.
 
-[The Linux Command Line - William Shotts](https://linuxcommand.org/tlcl.php)
-<div class=highlight>Free</div>
+<p><a href="https://linuxcommand.org/tlcl.php">The Linux Command Line - William Shotts</a><span class=highlight> (Free)</span></p>
 Great reference and introduction to Linux commands. I consider linux command line basics as essential for any programmer. 
 
 <a id="social"></a>
@@ -144,41 +136,21 @@ Great reference and introduction to Linux commands. I consider linux command lin
 [Twitter](https://twitter.com/)
 
 I like to stay active in the twitter-sphere to keep track of the latest data science goings-on. You can hear directly from any data scientists/programmers/visualisation experts you admire.  Recommended hashtags to search for/accounts to follow:
-
-- #rstats
-- #WomenInTech
-- @hadleywickham (All things R Tidyverse)
-- @daniela_witten (Author of ISLR)
-- @rasbt (Sebastian Rascka)
-- @numpy_team
-- @pandas_dev
-- @code (Visual Studio Code)
-- @moritz_stefaner (Host of DataStories)
-- @FILWD (Enrico Bertini - Host of DataStories)
-- @datastories
-- @ViennaDSG
-- @Dhavide Aruliah (I learned pandas fundamentals from Dhavide)
-- @topepos (Max Kuhn - Creator of caret)
-- @PyData
-- @ProjectJupyter (to know about the latest features and releases)
-- @GoogleAI
-- @dataandme (Mara Averick)
-- @minebocek (Mine Çetinkaya-Rundel)
-- @CVWickham (Charlotte Wickham)
-- @StatGarrett (Garrett Grolemund)
-- @kaggle
-- @AndrewYNg (Author of the highly-recommended Coursera course on Machine Learning)
-- @wesmckinn (Wes McKinney - Creator of pandas)
-- @juliasilge
-- @chrisalbon
-- @mathbabedotorg (Cathy O'Neil - Author of "Weapons of Math Destruction")
-- @amuellerml (Andreas Mueller)
-- @hugobowne (Hugo Bowne-Anderson)
-- @FiveThirtyEight (Data-Focussed Current Affairs)
-- @rstudio
-- @vboykis (Vicky Boykis)
-- @csdoctorsister (Dr Brandeis Marshall)
-
+<div>
+    <ul class=no_bullets>
+    {% for item in site.data.twitter %}
+    {%if item.name contains '@' %}
+    <li><a href="{{ item.name | remove_first: '@' | prepend: 'https://twitter.com/'}}">
+      {{ item.name }}</a>
+    {% else if (item.name contains '#' %}
+        <li><a href="{{ item.name | remove_first: '#' | prepend: 'https://twitter.com/search?q=%23' | append: '&src=typed_query'}}">
+      {{ item.name }}</a>
+    {%endif%}
+      <span> {{item.description}}</span></li>
+    {% endfor %}
+    </ul>
+</div>
+<br>
 [Vienna Data Science Group (vdsg)](https://viennadatasciencegroup.at/)
 
 I attended hackathon run by VDSG in which I worked on projects from non-profit organisations to help them get the most out of their data. I have also worked with this group on other data4good projects.
@@ -224,3 +196,7 @@ Complementary to the pandas documentation. This gives an overview of commonly us
 <a>Git Cheatsheet</a>
 
 I don't have a recommendation for a specific cheatsheet but I recommend finding one you like and saving it somewhere useful. **Everybody** needs to look up anything more compley rthan the basic commands.
+
+[Machine Learning Flashcards - Chris Albon](https://machinelearningflashcards.com/)
+
+A great resource to test your machine learning knowledge every now and then.
