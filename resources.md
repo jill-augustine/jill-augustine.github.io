@@ -98,7 +98,7 @@ I like this book for the step by step calculations of core statistics such as R-
 
 <p><a href="https://rstudio-education.github.io/hopr/">Hands-On Programming with R - Garrett Grolemund</a><span class=highlight> (Free)</span></p>
 
-This book takes you from the <strong>absolute</strong> beginning with zero coding knowledge. A great place to start learning R.
+This book takes you from the <strong>absolute</strong> beginning with zero coding knowledge. A great place to start learning R. It is a good overview from a general programmng perspective. I recommend chapters 1-7. The later chapters seem more understandable once you have some hands-on experiene with data science. Appendix E also provides some good debugging tips.
 
 <p><a href="https://r4ds.had.co.nz/">R for Data Science - Hadley Wickham &amp; Garret Grolemund</a><span class=highlight> (Free)</span></p>
 A good allrounder book on using R for data science. It comes with lots of code snippits for you to try our yourself.

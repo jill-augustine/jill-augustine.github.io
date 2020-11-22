@@ -4,9 +4,9 @@
 #   link: /about.html
 - name: Projects
   link: /projects.html
-- name: Toolbox
+- name: DS Toolbox
   link: /toolbox.html
-- name: Resources
+- name: Useful Resources
   link: resources.html
 - name: Talks
   link: /talks.html
