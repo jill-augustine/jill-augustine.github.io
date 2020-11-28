@@ -88,10 +88,6 @@ A collection of video and written tutorials great for helping you develop shiny 
 
 Books which are freely available from the author are highlighted.
 
-<p><a href="https://www.goodreads.com/book/show/17397466-an-introduction-to-statistical-learning">An Introduction to Statistical Learning - Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani</a><span class=highlight> (Free from Gareth James's academic website)</span></p>
-
-This book is an <strong>excellent</strong> resource for understanding the statistical fundamentals of the most commonly used machine learning algorithms. I consider it a must read. It also comes with lab exercises in R but the book is great based on its mathematical and statistic introductions alone.
-
 [Statistical Analysis with R for Dummies - Joseph Schmuller](https://www.dummies.com/education/math/statistics/statistical-analysis-r-dummies/)
 
 I like this book for the step by step calculations of core statistics such as R-squared and also has detailed walkthroughs of hypothesis testing.
@@ -105,6 +101,10 @@ A good allrounder book on using R for data science. It comes with lots of code s
 
 <p><a href="https://adv-r.hadley.nz/">Advanced R - Hadley Wickham</a><span class=highlight> (Free)</span></p>
 This book is on my reading list. I know colleagues who refer to it often for more advanced topics.
+
+<p><a href="https://www.goodreads.com/book/show/17397466-an-introduction-to-statistical-learning">An Introduction to Statistical Learning - Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani</a><span class=highlight> (Free from Gareth James's academic website)</span></p>
+
+This book is an <strong>excellent</strong> resource for understanding the statistical fundamentals of the most commonly used machine learning algorithms. I consider it a must read. It also comes with lab exercises in R but the book is great based on its mathematical and statistic introductions alone.
 
 <p><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a><span class=highlight> (Free)</span></p>
 I've not read it yet myself. I heard it is a very comprehensive resource for data science in python.
