@@ -74,6 +74,17 @@ a {
 .column {
     float: left;
     width: 45%;
+    padding: px;
+  }
+
+.column_dual {
+    float: left;
+    width: 45%;
+    padding: 10px;
+  }
+
+.column_single {
+    width: 66%;
     padding: 10px;
   }
   
@@ -134,6 +145,12 @@ a {
     iframe {
         height: 200px
     }  
+
+    .column_dual, .column_single {
+        display: block;
+        width: 90%;
+        padding: 10px;
+      }
   }
 
 

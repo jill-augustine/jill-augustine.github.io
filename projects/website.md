@@ -7,11 +7,11 @@ tag: project
 
 In Autumn 2020, I took on the challenge to rebuild my website. My experience in front-end web development until this time was [A Shiny Web App](/projects/shiny.html). My previous website was based on [Bookdown](https://bookdown.org/), a common R package used to create many of the free R resources found on my [Useful Resources](/resources.html).
 <div class=row>
-<div class=column>
+<div class=column_dual>
   <img src="/assets/img/website2018_light.png" alt="My former bookdown website in light mode">
   <p class=caption>Light mode</p>
   </div>
-<div class=column>
+<div class=column_dual>
   <img src="/assets/img/website2018_dark.png" alt="My former bookdown website in dark mode">
   <p class=caption>Dark mode</p>
   </div>

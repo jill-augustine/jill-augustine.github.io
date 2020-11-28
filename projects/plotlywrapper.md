@@ -1,7 +1,7 @@
 ---
 layout: project
 title: autoplot() wrapper
-subtitle: August 2020
+subtitle: Coming soon!
 tag: project
 ---
 
