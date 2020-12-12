@@ -220,7 +220,7 @@ a { color: #6189c5; }
 
 .page-title { margin: 30px auto; margin-bottom: 12px; text-align: center; }
 
-.page-title__subtitle { color: #888585; }
+.page-title__subtitle, h3 { color: #888585; }
 
 .project_menu { font-size: 110%; margin: 0px; margin-top: 6px; padding: 0px; list-style-type: none; }
 

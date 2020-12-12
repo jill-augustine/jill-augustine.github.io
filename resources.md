@@ -166,13 +166,21 @@ I've not been to this series of meetups but I've heard great things about it.
 <a id="podcasts"></a>
 ## Podcasts
 
+### Data Visualisation
+
+[Explore Explain](https://www.visualisingdata.com/podcast/)
+
+[Storytelling with Data](http://www.storytellingwithdata.com/podcast)
+
 [Data Stories](http://datastori.es/)
 
-All things data visualisation
+### Machine Learning
 
 [Linear Digressions](http://lineardigressions.com/)
 
 This podcast is an intermediate level podcast about different machine learning related mathmatical concepts and algorithms. Presented by one expert, [Katie Malone](https://twitter.com/multiarmbandit), and one non-expert, Ben (couldn't find his SM details!).
+
+### General Data
 
 [Freakonomics Radio](http://freakonomics.com/archive/)
 

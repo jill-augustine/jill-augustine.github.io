@@ -7,6 +7,8 @@
   description: Sebastian Rascka
 - name: '@numpy_team'
 - name: '@pandas_dev'
+- name: '@storywithdata'
+  description: Cole Nussbaumer Knaflic, founder & CEO of Storytelling with Data
 - name: '@code'
   description: Visual Studio Code - Good to know about the latest features and releases
 - name: '@moritz_stefaner'
