@@ -5,9 +5,6 @@ subtitle:
 sitemap:
   priority: 0.9
 ---
-## News!
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeE2nqjWcRM7ErTMaLvEk6XKpC0qK6J4sB8Qa68yte7fSLLTA/viewform?embedded=true" width="640" height="1089" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 <div>
   <img src="assets/img/me4234square2.jpg" alt="&copy; Ina Aydogan" class="profile_pic" width=200px>
