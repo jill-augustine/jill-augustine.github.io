@@ -5,6 +5,10 @@ subtitle:
 sitemap:
   priority: 0.9
 ---
+## News!
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeE2nqjWcRM7ErTMaLvEk6XKpC0qK6J4sB8Qa68yte7fSLLTA/viewform?embedded=true" width="640" height="1089" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 <div>
   <img src="assets/img/me4234square2.jpg" alt="&copy; Ina Aydogan" class="profile_pic" width=200px>
 </div>
@@ -14,4 +18,4 @@ My main interest (and the reason I became a data scientist) is using data to ans
 
 In particular I am passionate about data understanding and communication both to stakeholders and within data teams. My professional approach to data science is to use the tool that gets the job done given any constraints from team members and stakeholders. This means I don't have an answer to the R vs. Python "debate".
 
-Another interest of mine is increasing the inclusivity of working groups through open exchanges and active diversificartion. I aim to make my presentations are accessible as possible and welcome feedback as to how I can improve this further. I am also open to opportunities to speak about my work at conferences and meetups. 
+Another interest of mine is increasing the inclusivity of working groups through open exchanges and active diversification. I aim to make my presentations are accessible as possible and welcome feedback as to how I can improve this further. I am also open to opportunities to speak about my work at conferences and meetups. 
