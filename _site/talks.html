@@ -9,9 +9,41 @@
 
 <link rel="canonical" href="/talks.html">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-SB9G1QSXQ2'></script>
+  <script>   
+    var gaProperty = 'G-SB9G1QSXQ2';
+    var disableStr = 'ga-disable-' + gaProperty;
+
+    window.addEventListener("load", function() {
+      // load pop-up if no disableStr cookie exists
+      if (!document.cookie.split(';')
+                        .map(item => item.trim().split('=')[0])
+                        .includes(disableStr)) {
+                          // show popup box with 'yes','no','more info'
+                          let banner = document.getElementById('cookie_banner');
+                          banner.style.display = "block";
+
+      }});
+    // Opt-out function
+    function gaOptout() {
+      document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+      window[disableStr] = true;
+      let banner = document.getElementById('cookie_banner');
+      banner.style.display = "none";
+    }
+    // Opt-in function
+    function gaOptin() {
+      document.cookie = disableStr + '=false; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+      window[disableStr] = false; // this is the default
+      let banner = document.getElementById('cookie_banner');
+      banner.style.display = "none";
+    }  
+  </script>
   <script>
+    if (document.cookie.indexOf(disableStr + '=true') > -1) {
+      window[disableStr] = true;
+    }
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -30,6 +62,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Varta" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Catamaran" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Manrope" rel="stylesheet">
+<div class="cookie_banner" id="cookie_banner">
+    <div>
+        <span class = 'highlight'><strong>What would a data scientist be without data?</strong></span><br>
+        Do you allow me to collect anonymous data on your visit to jill.codes?<br>
+        <button class='accept_cookies' onclick="gaOptin()">Ok, sure!</button>
+        <button class='reject_cookies' onclick="gaOptout()">No, thanks.</button>
+        <a href='/404.html' class='privacy_info_link'>More Info</a>
+    </div>
+</div>
+
 </head>
 <body>
 <div class="wrapper">
