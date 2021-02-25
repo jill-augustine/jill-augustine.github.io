@@ -5,8 +5,7 @@ subtitle:
 sitemap:
   priority: 0.9
 ---
-
-<div>
+<div class="profile_pic_row">
   <img src="assets/img/me4234square2.jpg" alt="&copy; Ina Aydogan" class="profile_pic" width=200px>
 </div>
 I am a data scientist and question answerer. I received my PhD in Molecular Biology from the University of Vienna (Austria) and my BSc from the University of Leeds (UK) during which I also studied at McGill University (Montreal, Canada).

@@ -1,7 +1,7 @@
 - name: Home
   link: /
-# - name: About Me
-#   link: /about.html
+- name: About
+  link: /about.html
 - name: Projects
   link: /projects.html
 - name: DS Toolbox

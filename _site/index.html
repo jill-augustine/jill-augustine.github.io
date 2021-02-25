@@ -20,7 +20,7 @@
       if (!document.cookie.split(';')
                         .map(item => item.trim().split('=')[0])
                         .includes(disableStr)) {
-                          // show popup box with 'yes','no','more info'
+                          // show popup box
                           let banner = document.getElementById('cookie_banner');
                           banner.style.display = "block";
 
@@ -68,7 +68,7 @@
         Do you allow me to collect anonymous data on your visit to jill.codes?<br>
         <button class='accept_cookies' onclick="gaOptin()">Ok, sure!</button>
         <button class='reject_cookies' onclick="gaOptout()">No, thanks.</button>
-        <a href='/404.html' class='privacy_info_link'>More Info</a>
+        <a href='/about.html#privacystatement' class='privacy_info_link'>More Info</a>
     </div>
 </div>
 
@@ -109,6 +109,11 @@
       Home
     </a></li>
     
+    <li class='menu__entry'><a href="/about.html" 
+      >
+      About
+    </a></li>
+    
     <li class='menu__entry'><a href="/projects.html" 
       >
       Projects
@@ -142,7 +147,7 @@
 <div class="page-title__subtitle"></div>
 </h1>
 
-<div>
+<div class="profile_pic_row">
   <img src="assets/img/me4234square2.jpg" alt="&copy; Ina Aydogan" class="profile_pic" width="200px" />
 </div>
 <p>I am a data scientist and question answerer. I received my PhD in Molecular Biology from the University of Vienna (Austria) and my BSc from the University of Leeds (UK) during which I also studied at McGill University (Montreal, Canada).</p>

@@ -52,7 +52,6 @@
     margin:2px;
 }
 
-
 .highlight {
     color: #16a085; }
 
@@ -62,7 +61,15 @@
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-    margin: 32px auto;
+    margin: auto;
+}
+
+.profile_pic_row {
+    padding-top: 32px;
+}
+
+.menu {
+    text-align: center;
 }
 
 /* leaves space left and right in all layouts based on default */
@@ -191,7 +198,9 @@ a {
         font-size: 55%; }
 
     .menu {
-        font-size: 125%;}
+        font-size: 125%;
+        text-align: center;
+    }
 
     .project_menu {
         font-size: 100%;
