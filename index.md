@@ -5,6 +5,7 @@ subtitle:
 sitemap:
   priority: 0.9
 ---
+<br>
 <div class="profile_pic_row">
   <img src="assets/img/me4234square2.jpg" alt="&copy; Ina Aydogan" class="profile_pic" width=200px>
 </div>

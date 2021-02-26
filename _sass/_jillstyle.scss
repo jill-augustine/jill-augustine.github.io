@@ -3,6 +3,14 @@
     color: rgb(197, 134, 192); }
 */
 
+
+
+.project_navigation {
+    text-align: center;
+}
+.logo_block {
+    float:left;
+}
 .cookie_banner {
     background:rgba(255,255,255,.5);
     display:none;
@@ -72,6 +80,11 @@
     text-align: center;
 }
 
+.menu__entry {
+    margin-right: 35px;
+    margin-bottom: 10px; 
+}
+
 /* leaves space left and right in all layouts based on default */
 .wrapper {
     margin: auto;
@@ -120,7 +133,7 @@ iframe[name*="survey"] {
 }
 
 a {
-    color: #6189c5
+    color: #6189c5;
 }
 
 .page-title {
@@ -180,6 +193,10 @@ a {
     .cookie_banner > div {
         width: auto;
     }
+    .logo_block {
+        float: none;
+        text-align: center;
+    }
     .logo {
         font-size: 250%;
     }
@@ -237,32 +254,3 @@ a {
         padding: 10px;
       }
   }
-
-
-/*
-
-this should be the same as what is specified for body
-strong { 
-    color: rgb(212,212,212);
-}
-
-a {
-    color: rgb(86, 157, 214);
-}
-
-a {
-    color: rgb(86, 157, 214);
-}
-
-.logo  {
-    color: rgb(206, 145,120)
-}
-
-.page-title__text {
-    color: rbg(156, 220, 254); }
-
-.page-title__subtitle {
-    font-weight: 400;
-    font-size: 75%;
-    color: rgb(220, 220, 170); }
-    */
