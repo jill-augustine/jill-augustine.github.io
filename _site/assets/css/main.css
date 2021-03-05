@@ -199,7 +199,7 @@ blockquote p { display: inline; font-size: 120%; color: #828282; font-weight: 40
 
 /* Colours */
 /*  .highlight { color: rgb(197, 134, 192); } */
-.project_navigation { text-align: center; }
+.project_sub_navigation { text-align: center; }
 
 .logo_block { float: left; }
 

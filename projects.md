@@ -4,4 +4,4 @@ title: Projects
 subtitle: 
 ---
 
-{% include page/project_navigation.html %}
+{% include page/project_sub_navigation.html %}
