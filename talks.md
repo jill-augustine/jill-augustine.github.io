@@ -3,13 +3,18 @@ layout: page
 title: Talks
 ---
 
+## Women in Data Science CEE 2021 | 8th March 2021
+### Moving in to Data Science from Non-CS Academia
+<iframe src="https://www.youtube-nocookie.com/embed/HcvFKknw508" name="video_WiDSCEE2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Working in academia provides a solid foundation on which you can build data science skills. But if you are outside of an advanced mathematical or informatics field, knowing exactly where your strengths lie and what you need to work on can be unclear. In this talk I will answer questions from an open survey of people who want to transition into data science. I will talk about the requirements for your first data science job, what hiring managers look out for and my personal learning path.
+
 ## MONDI & WeAreDevelopers | November 2019 
 ### the art, science and maths of doing data science 
 
-<video controls>
-  <source src="assets/videos/MONDI_data_scientists_talk_with_WeAreDevelopers.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<iframe src="https://www.youtube-nocookie.com/embed/RnzF87Pqq34" name="video_WAD2019short" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+A short promotion of Mondi's paricipation in WeAreDevelopers 2019.
 
 ## Big Data LDN 2019 | 13th November 2019 
 ### DATA SKILLS: HOW MONDI DOES DIGITAL
