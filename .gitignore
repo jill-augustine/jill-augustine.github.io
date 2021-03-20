@@ -1,4 +1,7 @@
+*key.json
+
 *.DS_Store
+*/.DS_Store
 
 # Jeykll files
 .jekyll-cache/*

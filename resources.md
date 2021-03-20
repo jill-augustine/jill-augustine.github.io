@@ -4,7 +4,7 @@ title: Useful Resources
 subtitle: A list of resources I often use and recommend
 headings: [Documentation, Books, Social, Podcasts, Cheatsheets]
 ---
-<div class="project_navigation">
+<div class="project_sub_navigation">
     <ul class='project_menu'>
     {% for item in page.headings %}
     <li class='menu__entry'><a href="{{ item | downcase | prepend: '#'}}">

@@ -197,8 +197,6 @@ blockquote p { display: inline; font-size: 120%; color: #828282; font-weight: 40
 /* Custom */
 .go-home { text-align: center; }
 
-/* Colours */
-/*  .highlight { color: rgb(197, 134, 192); } */
 .project_sub_navigation { text-align: center; }
 
 .logo_block { float: left; }
@@ -215,6 +213,8 @@ blockquote p { display: inline; font-size: 120%; color: #828282; font-weight: 40
 
 .highlight { color: #16a085; }
 
+.lowlight { color: #888585; font-size: 1.17em; }
+
 .profile_pic { border: none; box-sizing: border-box; border-radius: 50%; max-width: 300px; max-height: 300px; margin: auto; }
 
 .profile_pic_row { padding-top: 32px; }
@@ -226,7 +226,6 @@ blockquote p { display: inline; font-size: 120%; color: #828282; font-weight: 40
 /* leaves space left and right in all layouts based on default */
 .wrapper { margin: auto; padding: 60px 24px; /*padding-left: 24px; padding-right: 24px; */ }
 
-/*p, ul, ol, dl, h1, h2, h3, h4, h5, h6  { padding: 0% 2%; } */
 body { font-family: 'Catamaran', sans-serif; /*font-family: 'Manrope', sans-serif;  */ /*font-family: 'Varta', sans-serif;  */ /*font-family: 'Assistant', sans-serif; */ font-size: 100%; color: #d4d4d4; background-color: #1e1e1e; }
 
 /* should be the same as highlight colour */
@@ -235,6 +234,8 @@ h2 { color: #16a085; }
 video { display: block; width: 100%; }
 
 iframe { display: block; }
+
+iframe[name^="audio"] { width: 100%; }
 
 iframe[name^="video"] { width: 100%; height: 400px; }
 
@@ -266,6 +267,6 @@ a { color: #6189c5; }
 
 /* =Small screen */
 /*************************************************************/
-@media (max-width: 500px) { .cookie_banner > div { width: auto; } .logo_block { float: none; text-align: center; } .logo { font-size: 250%; } .page-title { margin: xauto; text-align: center; } .page-title__text { font-size: 110%; line-height: 110%; } .page-title__subtitle { font-size: 55%; } .menu { font-size: 125%; text-align: center; } .project_menu { font-size: 100%; } .social-links { font-size: 150%; margin: auto auto; } .menu__entry { display: block; margin-right: 0px; } .menu__entry:last-child { margin-bottom: 12px; } video, iframe { margin: auto; } iframe[name^="video"] { height: 200px; } iframe[name*="survey"] { width: 100%; height: 1450px; border: none; margin: 0; } .column_dual, .column_single { display: block; width: 90%; padding: 10px; } }
+@media (max-width: 500px) { .cookie_banner > div { width: auto; } .logo_block { float: none; text-align: center; } .logo { font-size: 250%; } .page-title { margin: xauto; text-align: center; } .page-title__text { font-size: 110%; line-height: 110%; } .page-title__subtitle { font-size: 55%; } .menu { font-size: 125%; text-align: center; } .project_menu { font-size: 100%; } .social-links { font-size: 150%; margin: auto auto; } .menu__entry { display: block; margin-right: 0px; } .menu__entry:last-child { margin-bottom: 12px; } video, iframe { margin: auto; } iframe[name^="video"] { height: 200px; } iframe[name^="audio"] { height: 90px; } iframe[name*="survey"] { width: 100%; height: 1450px; border: none; margin: 0; } .column_dual, .column_single { display: block; width: 90%; padding: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

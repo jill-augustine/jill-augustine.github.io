@@ -1,10 +1,3 @@
-/* Colours */
-/*  .highlight {
-    color: rgb(197, 134, 192); }
-*/
-
-
-
 .project_sub_navigation {
     text-align: center;
 }
@@ -63,6 +56,11 @@
 .highlight {
     color: #16a085; }
 
+.lowlight {
+    color: #888585; 
+    font-size: 1.17em;
+}
+
 .profile_pic {
     border: none;
     box-sizing: border-box;
@@ -93,9 +91,6 @@
     padding-right: 24px; */
 }
 
-/*p, ul, ol, dl, h1, h2, h3, h4, h5, h6  {
-    padding: 0% 2%; } */
-
 body {
     font-family: 'Catamaran', sans-serif;  
     /*font-family: 'Manrope', sans-serif;  */
@@ -118,6 +113,10 @@ video {
 
 iframe {
     display: block;
+}
+
+iframe[name^="audio"] {
+    width: 100%;
 }
 
 iframe[name^="video"] {
@@ -239,6 +238,10 @@ a {
     
     iframe[name^="video"] {
         height: 200px
+    } 
+
+    iframe[name^="audio"] {
+        height: 90px
     }  
 
     iframe[name*="survey"] {
