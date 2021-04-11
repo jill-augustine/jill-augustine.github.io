@@ -2,7 +2,7 @@
 layout: page
 title: Useful Resources
 subtitle: A list of resources I often use and recommend
-headings: [Documentation, Books, Social, Podcasts, Cheatsheets]
+headings: [Books, Documentation, Cheatsheets, Podcasts, Social]
 ---
 <div class="project_sub_navigation">
     <ul class='project_menu'>
@@ -13,6 +13,53 @@ headings: [Documentation, Books, Social, Podcasts, Cheatsheets]
     {% endfor %}
     </ul>
 </div>
+<a id="books"></a>
+## Books
+
+Books which are freely available from the author are highlighted.
+
+<p><a href="https://r4ds.had.co.nz/">R for Data Science - Hadley Wickham &amp; Garret Grolemund</a><span class=highlight> (Free)</span></p>
+A good allrounder book on using R for data science. It comes with lots of code snippits for you to try our yourself.
+
+<p><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook - Jake VanderPlas</a><span class=highlight> (Free)</span></p>
+I've not read it yet myself. I heard it is a very comprehensive resource for data science in python.
+
+<p><a href="https://www.goodreads.com/book/show/17397466-an-introduction-to-statistical-learning">An Introduction to Statistical Learning - Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani</a><span class=highlight> (Free from Gareth James's academic website)</span></p>
+
+[Statistical Analysis with R for Dummies - Joseph Schmuller](https://www.dummies.com/education/math/statistics/statistical-analysis-r-dummies/)
+
+I like this book for the step by step calculations of core statistics such as R-squared and also has detailed walkthroughs of hypothesis testing.
+
+<p><a href="https://rstudio-education.github.io/hopr/">Hands-On Programming with R - Garrett Grolemund</a><span class=highlight> (Free)</span></p>
+
+This book takes you from the <strong>absolute</strong> beginning with zero coding knowledge. A great place to start learning R. It is a good overview from a general programmng perspective. I recommend chapters 1-7. The later chapters seem more understandable once you have some hands-on experiene with data science. Appendix E also provides some good debugging tips.
+
+<p><a href="https://adv-r.hadley.nz/">Advanced R - Hadley Wickham</a><span class=highlight> (Free)</span></p>
+This book is on my reading list. I know colleagues who refer to it often for more advanced topics.
+
+This book is an <strong>excellent</strong> resource for understanding the statistical fundamentals of the most commonly used machine learning algorithms. I consider it a must read. It also comes with lab exercises in R but the book is great based on its mathematical and statistic introductions alone.
+
+[Python Machine Learning - Sebastian Raschka](https://sebastianraschka.com/books.html)
+
+This book has some good illustrations on how scikit learn works and might be helpful generally for people wanting to use sklearn for machine learning. It is a good book for people who already know machine learning and want to know how to implement their favourite algorithms in python but it also introduces concepts in machine learning too.
+
+[Fluent Python - Luciano Ramalho](https://www.goodreads.com/book/show/22800567-fluent-python)
+
+If you are like me and want to understand the inner workings of Python, this is a good read. This book helped me learn more about base python. I didn't read it cover to cover but pick it up, read a chapter and you will learn something new to improve your code. 
+
+[Weapons of Math Destruction - Cathy O'Neil](https://weaponsofmathdestructionbook.com/)
+
+Because we are not doing data science in an isolated bubble. Our decisions have consequenses and this book is a great start to being aware of them.
+
+<p><a href="https://serialmentor.com/dataviz">Fundamentals of Data Visualization - Claus O. Wilke</a><span class=highlight> (Free)</span></p>
+I've not fully explored this yet but it seems like a great resource on how to ensure your data visualisations are as communicative as possible and tell the story you want to tell.
+
+<p><a href="https://r-graphics.org/">R Graphics Cookbook - Winston Chang</a><span class=highlight> (Free)</span></p>
+This book should be your first reference when trying to work out how to do certain things using ggplot2.
+
+<p><a href="https://linuxcommand.org/tlcl.php">The Linux Command Line - William Shotts</a><span class=highlight> (Free)</span></p>
+Great reference and introduction to Linux commands. I consider linux command line basics as essential for any programmer. 
+
 <a id="documentation"></a>
 ## Documentation (API References)
 
@@ -82,109 +129,6 @@ This is a question and answer site about a range of coding topics. It's not a si
 
 A collection of video and written tutorials great for helping you develop shiny web applications.
 
-<a id="books"></a>
-## Books
-
-Books which are freely available from the author are highlighted.
-
-[Statistical Analysis with R for Dummies - Joseph Schmuller](https://www.dummies.com/education/math/statistics/statistical-analysis-r-dummies/)
-
-I like this book for the step by step calculations of core statistics such as R-squared and also has detailed walkthroughs of hypothesis testing.
-
-<p><a href="https://rstudio-education.github.io/hopr/">Hands-On Programming with R - Garrett Grolemund</a><span class=highlight> (Free)</span></p>
-
-This book takes you from the <strong>absolute</strong> beginning with zero coding knowledge. A great place to start learning R. It is a good overview from a general programmng perspective. I recommend chapters 1-7. The later chapters seem more understandable once you have some hands-on experiene with data science. Appendix E also provides some good debugging tips.
-
-<p><a href="https://r4ds.had.co.nz/">R for Data Science - Hadley Wickham &amp; Garret Grolemund</a><span class=highlight> (Free)</span></p>
-A good allrounder book on using R for data science. It comes with lots of code snippits for you to try our yourself.
-
-<p><a href="https://adv-r.hadley.nz/">Advanced R - Hadley Wickham</a><span class=highlight> (Free)</span></p>
-This book is on my reading list. I know colleagues who refer to it often for more advanced topics.
-
-<p><a href="https://www.goodreads.com/book/show/17397466-an-introduction-to-statistical-learning">An Introduction to Statistical Learning - Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani</a><span class=highlight> (Free from Gareth James's academic website)</span></p>
-
-This book is an <strong>excellent</strong> resource for understanding the statistical fundamentals of the most commonly used machine learning algorithms. I consider it a must read. It also comes with lab exercises in R but the book is great based on its mathematical and statistic introductions alone.
-
-<p><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a><span class=highlight> (Free)</span></p>
-I've not read it yet myself. I heard it is a very comprehensive resource for data science in python.
-
-[Python Machine Learning - Sebastian Raschka](https://sebastianraschka.com/books.html)
-
-This book has some good illustrations on how scikit learn works and might be helpful generally for people wanting to use sklearn for machine learning. It is a good book for people who already know machine learning and want to know how to implement their favourite algorithms in python but it also introduces concepts in machine learning too.
-
-[Fluent Python - Luciano Ramalho](https://www.goodreads.com/book/show/22800567-fluent-python)
-
-If you are like me and want to understand the inner workings of Python, this is a good read. This book helped me learn more about base python. I didn't read it cover to cover but pick it up, read a chapter and you will learn something new to improve your code. 
-
-[Weapons of Math Destruction - Cathy O'Neil](https://weaponsofmathdestructionbook.com/)
-
-Because we are not doing data science in an isolated bubble. Our decisions have consequenses and this book is a great start to being aware of them.
-
-<p><a href="https://serialmentor.com/dataviz">Fundamentals of Data Visualization - Claus O. Wilke</a><span class=highlight> (Free)</span></p>
-I've not fully explored this yet but it seems like a great resource on how to ensure your data visualisations are as communicative as possible and tell the story you want to tell.
-
-<p><a href="https://r-graphics.org/">R Graphics Cookbook - Winston Chang</a><span class=highlight> (Free)</span></p>
-This book should be your first reference when trying to work out how to do certain things using ggplot2.
-
-<p><a href="https://linuxcommand.org/tlcl.php">The Linux Command Line - William Shotts</a><span class=highlight> (Free)</span></p>
-Great reference and introduction to Linux commands. I consider linux command line basics as essential for any programmer. 
-
-<a id="social"></a>
-## Social
-
-[Twitter](https://twitter.com/)
-
-I like to stay active in the twitter-sphere to keep track of the latest data science goings-on. You can hear directly from any data scientists/programmers/visualisation experts you admire.  Recommended hashtags to search for/accounts to follow:
-<div>
-    <ul class=no_bullets>
-    {% for item in site.data.twitter %}
-    {%if item.name contains '@' %}
-    <li><a href="{{ item.name | remove_first: '@' | prepend: 'https://twitter.com/'}}">
-      {{ item.name }}</a>
-    {% else if (item.name contains '#' %}
-        <li><a href="{{ item.name | remove_first: '#' | prepend: 'https://twitter.com/search?q=%23' | append: '&src=typed_query'}}">
-      {{ item.name }}</a>
-    {%endif%}
-      <span> {{item.description}}</span></li>
-    {% endfor %}
-    </ul>
-</div>
-<br>
-[Vienna Data Science Group (vdsg)](https://viennadatasciencegroup.at/)
-
-I attended hackathon run by VDSG in which I worked on projects from non-profit organisations to help them get the most out of their data. I have also worked with this group on other data4good projects.
-
-[R-Ladies Vienna](https://www.meetup.com/rladies-vienna/)
-
-Events ranging from beginner to advanced on different R topics.
-
-[Women&&Code](https://www.meetup.com/WomenAndCode/)
-
-I've not been to this series of meetups but I've heard great things about it.
-
-<a id="podcasts"></a>
-## Podcasts
-
-### Data Visualisation
-
-[Explore Explain](https://www.visualisingdata.com/podcast/)
-
-[Storytelling with Data](http://www.storytellingwithdata.com/podcast)
-
-[Data Stories](http://datastori.es/)
-
-### Machine Learning
-
-[Linear Digressions](http://lineardigressions.com/)
-
-This podcast is an intermediate level podcast about different machine learning related mathmatical concepts and algorithms. Presented by one expert, [Katie Malone](https://twitter.com/multiarmbandit), and one non-expert, Ben (couldn't find his SM details!).
-
-### General Data
-
-[Freakonomics Radio](http://freakonomics.com/archive/)
-
-If you're curious about the role of data in the real world, this podcast is for you.
-
 <a id="cheatsheets"></a>
 ## Cheatsheets
 
@@ -207,3 +151,69 @@ I don't have a recommendation for a specific cheatsheet but I recommend finding 
 [Machine Learning Flashcards - Chris Albon](https://machinelearningflashcards.com/)
 
 A great resource to test your machine learning knowledge every now and then.
+
+<a id="podcasts"></a>
+## Podcasts
+
+### General
+
+[Women In Technology Spotlight](https://www.youtube.com/channel/UCzyIflXBSORJe6sOLjAOP3A)
+
+This video series is hosted by Ronke Babajide, Dr.rer.nat. It features women working in IT over a spectrum of different roles.
+
+[Austrian AI Podcast](https://anchor.fm/aaip/)
+
+Hosted by Manuel Pasieka, this podcast talks about AI-related topics and how they are done in Austria.
+
+[Freakonomics Radio](http://freakonomics.com/archive/)
+
+If you're curious about the role of data in the real world, this podcast is for you.
+
+### Data Visualisation
+
+[Explore Explain](https://www.visualisingdata.com/podcast/)
+
+[Storytelling with Data](http://www.storytellingwithdata.com/podcast)
+
+[Data Stories](http://datastori.es/)
+
+### Machine Learning
+
+[Linear Digressions](http://lineardigressions.com/)
+
+This podcast is an intermediate level podcast about different machine learning related mathmatical concepts and algorithms. Presented by one expert, [Katie Malone](https://twitter.com/multiarmbandit), and one non-expert, Ben (couldn't find his SM details!).
+
+<a id="social"></a>
+## Social
+
+[Twitter](https://twitter.com/)
+
+[Vienna Data Science Group (vdsg)](https://viennadatasciencegroup.at/)
+
+I attended hackathon run by VDSG in which I worked on projects from non-profit organisations to help them get the most out of their data. I have also worked with this group on other data4good projects.
+
+[R-Ladies Vienna](https://www.meetup.com/rladies-vienna/)
+
+Events ranging from beginner to advanced on different R topics.
+
+[Women&&Code](https://www.meetup.com/WomenAndCode/)
+
+I've not been to this series of meetups but I've heard great things about it.
+
+I like to stay active in the twitter-sphere to keep track of the latest data science goings-on. You can hear directly from any data scientists/programmers/visualisation experts you admire.  Recommended hashtags to search for/accounts to follow:
+<div>
+    <ul class=no_bullets>
+    {% for item in site.data.twitter %}
+    {%if item.name contains '@' %}
+    <li><a href="{{ item.name | remove_first: '@' | prepend: 'https://twitter.com/'}}">
+      {{ item.name }}</a>
+    {% else if (item.name contains '#' %}
+        <li><a href="{{ item.name | remove_first: '#' | prepend: 'https://twitter.com/search?q=%23' | append: '&src=typed_query'}}">
+      {{ item.name }}</a>
+    {%endif%}
+      <span> {{item.description}}</span></li>
+    {% endfor %}
+    </ul>
+</div>
+<br>
+
