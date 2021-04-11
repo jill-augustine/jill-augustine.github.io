@@ -1,4 +1,10 @@
+*HelloAnalytics.py
+HelloAnalytics2.py
 *key.json
+*.pdf
+.DS_Store*
+
+.vscode/*
 
 *.DS_Store
 */.DS_Store
