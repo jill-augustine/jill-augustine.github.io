@@ -24,4 +24,8 @@ highlighter: null
 markdown: kramdown
 
 # Incluson/exclusion settings
-include: [_data/WomenInTechnologySpotlight/captions.srt, FILE, ...]
+exclude:
+  - _data/WomenInTechnologySpotlight
+  - HelloAnalytics.py
+  - HelloAnalytics2.py
+  - userexplorer-jillcodesua-key.json

@@ -2,7 +2,7 @@
 HelloAnalytics2.py
 *key.json
 *.pdf
-.DS_Store*
+**/.DS_Store
 
 .vscode/*
 

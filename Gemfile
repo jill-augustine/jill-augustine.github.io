@@ -9,6 +9,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.1.1"
 gem "kramdown", ">= 2.3.1"
+gem "webrick" 
+# webrick is not part of standard bundle since ruby 3.0 https://github.com/jekyll/jekyll/issues/8523
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"

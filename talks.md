@@ -2,6 +2,8 @@
 layout: page
 title: Talks & Interviews
 headings: 
+    - name: Women In Technology Spotlight 2021
+      link: WITS2021
     - name: Austrian AI Podcast 2021
       link: AustrianAIPodcast2021
     - name: Women In Data Science CEE 2021
@@ -23,6 +25,15 @@ headings:
     </ul>
 </div>
 
+<a id="WITS2021"></a>
+## Women in Technology Spotlight Episode 19
+<p class=lowlight>NB: This interview was recorded in May 2021. <a href="/assets/txt/widscee2021_transcript.txt" target="_blank">(Audio Transcript)</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SwhHgX5pTn8" name="video_WITS2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+In this episode, I had the pleasure to talk to @Jillian Augustine, Ph.D.!
+Jillian Augustine, is a British-Grenadian data scientist living in Vienna, Austria. She was born and grew up in West Yorkshire in the north of England whilst also (thankfully) spending many school summer vacations on Carriacou, Grenada.
+Jillian received a Bachelor's degree from the University of Leeds, in the UK during which she also spent time at McGill University, Canada. In 2018 she received a doctorate in Molecular Biology from the University of Vienna.
+Since then she has been working in a range of large and mid-sized companies in various AI/digitalization teams and is currently a Senior Data Scientist in the AI Centre of Excellence at Crayon.
+
 <a id="AustrianAIPodcast2021"></a>
 ## Austrian AI Podcast | Episode 3
 <p class=lowlight>Making the career jump from academia to industry and the intrinsic value of inclusiveness</p>
@@ -34,7 +45,7 @@ We end this episode, talking about diversity and inclusiveness. Jillian shares w
 
 <a id="WIDSCEE2021"></a>
 ## Women in Data Science CEE 2021 | 8th March 2021
-<span class=lowlight>Moving in to Data Science from Non-CS Academia <a href="/assets/txt/widscee2021_transcript.txt" target="_blank">(Audio Transcript)</a></span>
+<p class=lowlight>Moving in to Data Science from Non-CS Academia <a href="/assets/txt/widscee2021_transcript.txt" target="_blank">(Audio Transcript)</a></p>
 <iframe src="https://www.youtube-nocookie.com/embed/HcvFKknw508" name="video_WiDSCEE2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Working in academia provides a solid foundation on which you can build data science skills. But if you are outside of an advanced mathematical or informatics field, knowing exactly where your strengths lie and what you need to work on can be unclear. In this talk I will answer questions from an open survey of people who want to transition into data science. I will talk about the requirements for your first data science job, what hiring managers look out for and my personal learning path.
