@@ -1,3 +1,5 @@
+_site*
+
 *HelloAnalytics.py
 HelloAnalytics2.py
 *key.json
