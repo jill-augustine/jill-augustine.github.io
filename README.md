@@ -14,4 +14,4 @@ Alternatively, run `docker run -p 127.0.0.1:4000:5000 -it github-io bundle exec 
 
 Note the `--rm` option of `docker run` removes the container after it has been exited.
 
-Check ability to build with the following: `docker run --rm -it github-io bundle exec jekyll build`. You can check the error code with `docker run --rm -it github-io bundle exec jekyll build; exho $?`
+Check ability to build with the following: `docker run --rm -it github-io bundle exec jekyll build`. You can check the error code with `docker run --rm -it github-io bundle exec jekyll build; echo $?`
