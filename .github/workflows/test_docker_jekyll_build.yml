@@ -11,4 +11,4 @@ jobs:
           docker build --tag github-io:latest .
       - name: Test jekyll build in container
         run: |
-          docker run --rm -it github-io bundle exec jekyll build
+          docker run --rm github-io bundle exec jekyll build
