@@ -1,7 +1,7 @@
 name: Test jekyll build in docker
 on: [push, pull_request]
 jobs:
-  Test image build and site build:
+  Docker_build_and_jekyll_build:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
