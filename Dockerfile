@@ -1,22 +1,18 @@
 # syntax=docker/dockerfile:1
 
-FROM jekyll/jekyll
+FROM jekyll/jekyll:latest
 
 WORKDIR /app
 
+COPY source ./source
+COPY _config.yml .
 COPY Gemfile .
+COPY Gemfile.lock .
 
-# pre-create file to be overwritten by bundle install
-RUN touch Gemfile.lock && \
-    chmod 666 Gemfile.lock && \
-    bundle install
+# make contents of WORKDIR writable to 'other' aka to jekyll
+RUN chmod -R o+w .
 
-COPY . .
-
-RUN chmod -R +w .jekyll-cache && \
-    chmod -R o+w .jekyll-cache && \
-    chmod -R +w _site && \
-    chmod -R o+w _site
+RUN bundle install
 
 CMD ["/bin/bash"]
 
