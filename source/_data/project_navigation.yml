@@ -1,0 +1,17 @@
+# in reverse chronological order
+- name: ShinyTweetyPeople
+  link: /projects/shinytweetypeople.html
+  date: Jan 2021
+- name: Building jill.codes
+  link: /projects/website.html
+  date: Nov 2020
+#- name: Plotly Wrapper
+#  link: /projects/plotlywrapper.html
+#  date: Aug 2020
+- name: EU vs Virus
+  link: /projects/euvsvirus.html
+  date: May 2020
+- name: A Shiny Web App
+  link: /projects/shiny.html
+  date: Nov 2018
+

@@ -1,0 +1,1066 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:10.480 --> 00:00:15.680
+welcome everybody to this episode of the women&nbsp;
+in technology spotlight today i have with me&nbsp;&nbsp;
+
+00:00:15.680 --> 00:00:21.280
+jillian augustine with the data scientists at&nbsp;
+monday she's also a speaker at we are developers&nbsp;&nbsp;
+
+00:00:21.840 --> 00:00:25.680
+women in data science and also big data in london&nbsp;&nbsp;
+
+00:00:26.800 --> 00:00:35.200
+welcome jillian hi hey so nice to have you with&nbsp;
+me jillian i would like our listeners viewers&nbsp;&nbsp;
+
+00:00:35.200 --> 00:00:39.440
+to get to know you a little bit better maybe&nbsp;
+you could tell me a little bit about yourself&nbsp;&nbsp;
+
+00:00:40.880 --> 00:00:50.400
+sure um so my name is jillian i'm from the uk&nbsp;
+so um i've been in i've been living in vienna&nbsp;&nbsp;
+
+00:00:50.400 --> 00:00:57.840
+since 2013. um i'm from the uk um and my family&nbsp;
+is originally from grenada in the caribbean&nbsp;&nbsp;
+
+00:00:59.040 --> 00:01:08.640
+so pretty international um journey to here um and&nbsp;
+um yeah i've been working in data science now for&nbsp;&nbsp;
+
+00:01:10.400 --> 00:01:15.680
+um since 2018 um and it's&nbsp;
+it's currently pretty fun&nbsp;&nbsp;
+
+00:01:17.360 --> 00:01:25.440
+uh you have a very international background as you&nbsp;
+said what made you move to austria sure so um i&nbsp;&nbsp;
+
+00:01:25.440 --> 00:01:33.040
+actually i did my phd at the vienna bio center&nbsp;
+so my phd was in molecular biology um and the&nbsp;&nbsp;
+
+00:01:33.040 --> 00:01:38.640
+vienna bio center is a really good phd program&nbsp;
+so this was the main reason that i moved um&nbsp;&nbsp;
+
+00:01:39.280 --> 00:01:46.480
+that i moved to vienna i was previously in canada&nbsp;
+as well briefly so i studied at mcgill university&nbsp;&nbsp;
+
+00:01:46.480 --> 00:01:54.240
+for my um a part of my undergrad um as well&nbsp;
+but um after being at mcgill um in montreal for&nbsp;&nbsp;
+
+00:01:54.240 --> 00:01:59.600
+one year which is great and it's a great city i&nbsp;
+decided this time i would probably stay in europe&nbsp;&nbsp;
+
+00:01:59.600 --> 00:02:04.720
+because everything's a bit closer together&nbsp;
+i think it's so cool that you say that the&nbsp;&nbsp;
+
+00:02:05.440 --> 00:02:10.080
+program at the bio center is such a good one&nbsp;
+that you actually heard about it in the uk which&nbsp;&nbsp;
+
+00:02:10.800 --> 00:02:14.960
+i'm a bit stoked about that because i&nbsp;
+myself i have a phd from the university&nbsp;&nbsp;
+
+00:02:15.520 --> 00:02:22.800
+uh vienna in chemistry and my uh major was&nbsp;
+biochemistry i did then do my phd in theoretical&nbsp;&nbsp;
+
+00:02:22.800 --> 00:02:28.400
+chemistry but still i spent a lot of time there&nbsp;
+so i'm glad that the reputation of the institute&nbsp;&nbsp;
+
+00:02:28.400 --> 00:02:35.440
+is still there my bachelor's was actually in&nbsp;
+biochemistry so i see myself more as a biochemist&nbsp;&nbsp;
+
+00:02:35.440 --> 00:02:40.880
+than a biologist but um it's kind of in the&nbsp;
+middle that's such an interesting coincidence&nbsp;&nbsp;
+
+00:02:40.880 --> 00:02:48.080
+because there aren't actually that many people&nbsp;
+with the background like ours yeah no so cool so&nbsp;&nbsp;
+
+00:02:48.080 --> 00:02:53.280
+which me this means that you were actually a&nbsp;
+natural scientist before you became a woman in i.t&nbsp;&nbsp;
+
+00:02:53.840 --> 00:02:57.920
+tell me a little bit about your educational&nbsp;
+background what schools did you go to&nbsp;&nbsp;
+
+00:02:58.480 --> 00:03:06.720
+why did you choose this path what did&nbsp;
+you find interesting um my path is a bit&nbsp;&nbsp;
+
+00:03:07.440 --> 00:03:16.080
+um i would call it a zigzag almost so if i i&nbsp;
+think back to when i first went to university 2007&nbsp;&nbsp;
+
+00:03:16.080 --> 00:03:21.680
+i actually started studying dietetics&nbsp;
+which is similar to medical nutrition&nbsp;&nbsp;
+
+00:03:22.480 --> 00:03:28.480
+um and then um during this course there were&nbsp;
+some biochemistry courses and i found that i&nbsp;&nbsp;
+
+00:03:28.480 --> 00:03:34.000
+actually like the biochemistry courses more&nbsp;
+than the other ones so my first university&nbsp;&nbsp;
+
+00:03:34.000 --> 00:03:39.360
+was coventry university in the uk and then i&nbsp;
+went to leeds university to study biochemistry&nbsp;&nbsp;
+
+00:03:40.720 --> 00:03:46.240
+and then after a couple of years i had the&nbsp;
+opportunity to study abroad so i spent a&nbsp;&nbsp;
+
+00:03:46.240 --> 00:03:53.280
+whole year in at mcgill university in canada&nbsp;
+which was a great experience and really made&nbsp;&nbsp;
+
+00:03:53.280 --> 00:04:02.480
+me want to um to stay abroad and so there i focus&nbsp;
+mainly on biology developmental biology and also&nbsp;&nbsp;
+
+00:04:03.760 --> 00:04:10.880
+a bit of french as well why&nbsp;
+not um and then um after so i&nbsp;&nbsp;
+
+00:04:11.440 --> 00:04:17.680
+i found out about development biology when i&nbsp;
+was there i really found it interesting so i&nbsp;&nbsp;
+
+00:04:18.720 --> 00:04:24.400
+so after i finished my bachelor's degree in leeds&nbsp;
+i decided to start a phd at the vienna biocenter&nbsp;&nbsp;
+
+00:04:25.040 --> 00:04:32.000
+so i initially started in a group which&nbsp;
+studied developmental biology because it's&nbsp;&nbsp;
+
+00:04:32.000 --> 00:04:36.880
+such a fascinating field but then this didn't&nbsp;
+turn out really to be the best match for me so&nbsp;&nbsp;
+
+00:04:36.880 --> 00:04:43.760
+then i changed and i decided to go back towards&nbsp;
+biochemistry um so i started my phd again and&nbsp;&nbsp;
+
+00:04:43.760 --> 00:04:51.600
+just one year later and um yeah that was in a more&nbsp;
+biochemical focus looking at um the interactions&nbsp;&nbsp;
+
+00:04:51.600 --> 00:04:59.760
+of different proteins in the cell during&nbsp;
+different conditions um and during that time i&nbsp;&nbsp;
+
+00:05:00.800 --> 00:05:10.320
+had some introductory courses to r and um&nbsp;
+when i think about how i got into data science&nbsp;&nbsp;
+
+00:05:10.320 --> 00:05:20.000
+um during my phd i i must say i watched a lot&nbsp;
+of really bad presentations so ones where maybe&nbsp;&nbsp;
+
+00:05:20.000 --> 00:05:25.280
+someone says oh you can clearly see this&nbsp;
+but the whole audience is completely lost&nbsp;&nbsp;
+
+00:05:25.280 --> 00:05:31.840
+so i became really really enthusiastic about&nbsp;
+doing good data visualizations and telling stories&nbsp;&nbsp;
+
+00:05:32.720 --> 00:05:40.240
+um using data in a really good way so in a&nbsp;
+really clear way in an understandable way um&nbsp;&nbsp;
+
+00:05:40.240 --> 00:05:46.640
+and then i think pretty much from there&nbsp;
+this was this was kind of the bridge to&nbsp;&nbsp;
+
+00:05:47.760 --> 00:05:54.320
+data science because my my passion really lies&nbsp;
+in telling stories with data and learning from&nbsp;&nbsp;
+
+00:05:54.320 --> 00:06:01.760
+data and finding out what data can tell us&nbsp;
+this is wonderful because i feel this deeply&nbsp;&nbsp;
+
+00:06:01.760 --> 00:06:08.320
+bad presentations and you know information being&nbsp;
+conveyed in a way that nobody can actually use it&nbsp;&nbsp;
+
+00:06:08.320 --> 00:06:14.640
+it's a big problem in science and i love that you&nbsp;
+took this approach and that made you look at uh&nbsp;&nbsp;
+
+00:06:14.640 --> 00:06:21.040
+how to visualize data i think this is a big thing&nbsp;
+data is not information i think it's just data and&nbsp;&nbsp;
+
+00:06:21.040 --> 00:06:27.200
+what you do with it makes it information so i i&nbsp;
+understand that this is what fascinates you making&nbsp;&nbsp;
+
+00:06:27.920 --> 00:06:35.440
+data accessible and turning it into information&nbsp;
+so when you became a data scientist um what was&nbsp;&nbsp;
+
+00:06:35.440 --> 00:06:42.800
+your first step after you and you did your&nbsp;
+phd yeah so i was i was very fortunate to um&nbsp;&nbsp;
+
+00:06:43.840 --> 00:06:50.480
+i applied to the a1 graduate scheme and i&nbsp;
+was fortunate enough to get a place there&nbsp;&nbsp;
+
+00:06:50.480 --> 00:06:58.400
+so i would become an a1 graduate in ai and data&nbsp;
+analytics and this fit because throughout my phd&nbsp;&nbsp;
+
+00:06:58.400 --> 00:07:05.440
+and also before that i had been doing data&nbsp;
+analysis on a regular basis so this really&nbsp;&nbsp;
+
+00:07:05.440 --> 00:07:11.840
+and this p um this graduate program really&nbsp;
+allowed me to gain a better knowledge of business&nbsp;&nbsp;
+
+00:07:12.400 --> 00:07:18.240
+so what all the different um abbreviations&nbsp;
+mean what is important for stakeholders&nbsp;&nbsp;
+
+00:07:19.280 --> 00:07:27.040
+and to understand how how data analytics fits into&nbsp;
+the wider scheme of the business i was not aware&nbsp;&nbsp;
+
+00:07:27.040 --> 00:07:32.080
+that anyone had a graduate program that's such a&nbsp;
+cool thing we have one at vmware 2 and i feel that&nbsp;&nbsp;
+
+00:07:32.720 --> 00:07:40.800
+this is such a good way to move into the workplace&nbsp;
+from from education what exactly what kind of data&nbsp;&nbsp;
+
+00:07:41.840 --> 00:07:47.120
+does or did you work with that e1 was it&nbsp;
+more in terms of marketing or was it more in&nbsp;&nbsp;
+
+00:07:47.120 --> 00:07:53.120
+product development or what was the&nbsp;
+background so there were two main um&nbsp;&nbsp;
+
+00:07:54.080 --> 00:08:01.200
+two main projects which i worked on the first one&nbsp;
+looked at um understanding customer satisfaction&nbsp;&nbsp;
+
+00:08:01.200 --> 00:08:08.480
+so um one widely used metric is the net promoter&nbsp;
+score so if you ever get a recommendation after&nbsp;&nbsp;
+
+00:08:08.480 --> 00:08:14.000
+you you use a service saying how likely are you&nbsp;
+to recommend this to somebody else this is this&nbsp;&nbsp;
+
+00:08:14.000 --> 00:08:22.960
+is this score um so one one main project that i&nbsp;
+was working on looked at the data from different&nbsp;&nbsp;
+
+00:08:22.960 --> 00:08:28.720
+and from many different customers and try to&nbsp;
+understand what are the drivers for someone&nbsp;&nbsp;
+
+00:08:28.720 --> 00:08:35.120
+being likely to recommend the service or not and&nbsp;
+the second um the second one that i looked at&nbsp;&nbsp;
+
+00:08:35.120 --> 00:08:43.040
+was more um on the so not on the customer facing&nbsp;
+side although it did have effects naturally for&nbsp;&nbsp;
+
+00:08:43.040 --> 00:08:50.960
+the customers which was looking at the networks um&nbsp;
+so trying to predict the outages of um different&nbsp;&nbsp;
+
+00:08:50.960 --> 00:08:57.200
+parts of the network and trying to um that wasn't&nbsp;
+only in the initial stages but trying to set&nbsp;&nbsp;
+
+00:08:57.200 --> 00:09:04.000
+things up so that conclusions could be made in the&nbsp;
+future in terms of when is a breakage of a cable&nbsp;&nbsp;
+
+00:09:04.000 --> 00:09:10.240
+likely to happen where is it likely to happen and&nbsp;
+and that was all in the context of then allowing&nbsp;&nbsp;
+
+00:09:10.240 --> 00:09:16.480
+um allowing the cables to get repaired as soon&nbsp;
+as possible if you have an idea of where issues&nbsp;&nbsp;
+
+00:09:16.480 --> 00:09:23.840
+might come up okay that sounds so interesting um&nbsp;
+did you also include data from sensors in in the&nbsp;&nbsp;
+
+00:09:23.840 --> 00:09:30.000
+network or did you just take the data of outages&nbsp;
+and then cable breakages from the historic data&nbsp;&nbsp;
+
+00:09:31.520 --> 00:09:38.000
+so in this case it was it was just um looking&nbsp;
+at the outages and looking at um where they&nbsp;&nbsp;
+
+00:09:38.000 --> 00:09:46.160
+were happening uh when you compare your work with&nbsp;
+data in the academic space and in a1 was there a&nbsp;&nbsp;
+
+00:09:46.160 --> 00:09:55.280
+difference in in the way you data was approached&nbsp;
+i think that in the academic space data is so in&nbsp;&nbsp;
+
+00:09:55.280 --> 00:10:06.080
+the stem space at least data is way more valued so&nbsp;
+um kind of the you you work to let the data speak&nbsp;&nbsp;
+
+00:10:06.080 --> 00:10:15.040
+for itself and what what the data says is the&nbsp;
+truth um and you make decisions based on the data&nbsp;&nbsp;
+
+00:10:15.760 --> 00:10:23.120
+um whereas i feel um in the in the corporate&nbsp;
+space or in the private sector there are way&nbsp;&nbsp;
+
+00:10:23.120 --> 00:10:27.600
+more influencing factors which come into play&nbsp;
+and way more things that you have to take into&nbsp;&nbsp;
+
+00:10:27.600 --> 00:10:34.800
+consideration before you make a decision so i&nbsp;
+i would say in academia the decisions are more&nbsp;&nbsp;
+
+00:10:34.800 --> 00:10:42.640
+data-driven than in the corporate world yeah i&nbsp;
+understand so um i feel that that science is more&nbsp;&nbsp;
+
+00:10:44.480 --> 00:10:50.080
+occupied with going where the data leads&nbsp;
+you and corporate space might be more give&nbsp;&nbsp;
+
+00:10:50.080 --> 00:10:56.640
+me the data that i need to do what i want to&nbsp;
+do yeah maybe although even even in academia&nbsp;&nbsp;
+
+00:10:56.640 --> 00:11:04.240
+it can be unfortunate and i think it's kind of a&nbsp;
+reflection of the circumstances um sometimes you&nbsp;&nbsp;
+
+00:11:05.760 --> 00:11:11.040
+it's known that people can pick and choose the&nbsp;
+data that they want to support their theories&nbsp;&nbsp;
+
+00:11:11.040 --> 00:11:17.760
+but generally i think overall there is um there&nbsp;
+is a much better appreciation for the value&nbsp;&nbsp;
+
+00:11:17.760 --> 00:11:23.120
+of data in higher end i want to make a little&nbsp;
+bit of a step back so i was wondering if you&nbsp;&nbsp;
+
+00:11:23.120 --> 00:11:28.400
+have a family with a background in stem did&nbsp;
+they support you what do you have brothers&nbsp;&nbsp;
+
+00:11:28.400 --> 00:11:35.840
+and sisters maybe who do something similar&nbsp;
+or not um so my sister is an optometrist&nbsp;&nbsp;
+
+00:11:35.840 --> 00:11:46.240
+so this is also science related and my my mum was&nbsp;
+a dental nurse and then a health service manager&nbsp;&nbsp;
+
+00:11:46.240 --> 00:11:52.560
+so again in the medical field so we've&nbsp;
+always kind of been on this side of um um&nbsp;&nbsp;
+
+00:11:53.360 --> 00:11:59.600
+yeah on this side of the balance i would say and&nbsp;
+and obviously since your mother was also in that&nbsp;&nbsp;
+
+00:11:59.600 --> 00:12:04.240
+she wasn't surprised when you chose the career&nbsp;
+because you know i've talked to other women where&nbsp;&nbsp;
+
+00:12:04.240 --> 00:12:10.640
+the family was surprised by the choice of opiate&nbsp;
+but i guess that was not the case in your um&nbsp;&nbsp;
+
+00:12:11.360 --> 00:12:16.960
+i would say um because i initially started&nbsp;
+with dietetics which is very medical&nbsp;&nbsp;
+
+00:12:17.520 --> 00:12:24.640
+um because i think that was kind of&nbsp;
+um what what was known to me so um&nbsp;&nbsp;
+
+00:12:24.640 --> 00:12:30.400
+kind of when you think of the careers that you can&nbsp;
+go for anything in the hospital i pretty new was&nbsp;&nbsp;
+
+00:12:31.360 --> 00:12:37.680
+i i pretty much knew was was accessible also&nbsp;
+because um i lived pretty close to the hospital&nbsp;&nbsp;
+
+00:12:37.680 --> 00:12:45.120
+and and my mom worked there so i spent a lot&nbsp;
+of time just in the offices of the hospital um&nbsp;&nbsp;
+
+00:12:46.080 --> 00:12:54.000
+but it i think after after dietetics and then when&nbsp;
+i switch to biochemistry i think biochemistry is&nbsp;&nbsp;
+
+00:12:54.000 --> 00:13:00.720
+different because it's not related to a profession&nbsp;
+and i do think i was one of the first people&nbsp;&nbsp;
+
+00:13:01.440 --> 00:13:08.560
+i know to do some sort of education which was&nbsp;
+not specifically related to a profession um so&nbsp;&nbsp;
+
+00:13:09.120 --> 00:13:15.120
+i think um my family and when i think of&nbsp;
+my family i think of like extended family&nbsp;&nbsp;
+
+00:13:15.120 --> 00:13:24.000
+aunts uncles and godparents and so um they&nbsp;
+kind of check in to see if if i'm okay if&nbsp;&nbsp;
+
+00:13:24.000 --> 00:13:31.760
+i if everything's going okay um but i wouldn't&nbsp;
+say they really know what i'm i'm doing but they&nbsp;&nbsp;
+
+00:13:32.720 --> 00:13:39.760
+as long as i say i'm okay then it's fine for them&nbsp;
+uh you touched on two really different things uh&nbsp;&nbsp;
+
+00:13:39.760 --> 00:13:46.960
+see and very interesting things here because um&nbsp;
+one is is that that was a role that was known to&nbsp;&nbsp;
+
+00:13:46.960 --> 00:13:53.280
+you you know nutritionists and i think that's&nbsp;
+a very important thing to look at what kind of&nbsp;&nbsp;
+
+00:13:55.120 --> 00:14:01.120
+roles are available to us as women or as&nbsp;
+even as men you know there's this this kind&nbsp;&nbsp;
+
+00:14:01.120 --> 00:14:05.440
+of occupations we know and then there's all&nbsp;
+this this entire field where we have never&nbsp;&nbsp;
+
+00:14:06.080 --> 00:14:11.440
+met anyone seen anyone do it and i think that's&nbsp;
+a big issue because we might have talents that&nbsp;&nbsp;
+
+00:14:11.440 --> 00:14:18.160
+are in a completely different field but um i&nbsp;
+was thinking about this recently uh because&nbsp;&nbsp;
+
+00:14:18.160 --> 00:14:23.360
+i was writing a short article and i remembered&nbsp;
+what hannibal lecter said in the silence of the&nbsp;&nbsp;
+
+00:14:23.360 --> 00:14:30.160
+lambs and when he said how do we begin to covet we&nbsp;
+covered what we see you know so yeah and i think&nbsp;&nbsp;
+
+00:14:30.160 --> 00:14:36.720
+this is a big thing and and something i think we&nbsp;
+might touch on when we look at the education of&nbsp;&nbsp;
+
+00:14:36.720 --> 00:14:42.960
+women children what kind of roles we we offer&nbsp;
+to them what we show them what they can do and&nbsp;&nbsp;
+
+00:14:42.960 --> 00:14:48.320
+the other thing is i'm not sure if it's related&nbsp;
+to your caribbean background but for my family&nbsp;&nbsp;
+
+00:14:48.320 --> 00:14:55.360
+since my i grew up in africa and my father is from&nbsp;
+nigeria it was they also had this this thing about&nbsp;&nbsp;
+
+00:14:55.360 --> 00:15:00.880
+um jobs with educations with clear outcomes&nbsp;
+like buckthorn you know those are the things&nbsp;&nbsp;
+
+00:15:00.880 --> 00:15:06.960
+you would do and i do feel that my father always&nbsp;
+wondered what biochemistry actually was and now&nbsp;&nbsp;
+
+00:15:06.960 --> 00:15:13.520
+that i'm at mit he doesn't really know&nbsp;
+what i'm doing so yeah pretty much saying
+
+00:15:15.600 --> 00:15:23.440
+okay um yeah interesting point around being a&nbsp;
+role model how did you experience being a woman&nbsp;&nbsp;
+
+00:15:23.440 --> 00:15:30.640
+in in i.t especially since it's also not only a&nbsp;
+woman in a tea you also went to a strange country&nbsp;&nbsp;
+
+00:15:30.640 --> 00:15:38.160
+and then how is this for you in terms of like&nbsp;
+generally when we think about role models we&nbsp;&nbsp;
+
+00:15:38.160 --> 00:15:45.120
+are thinking about people who are like us who have&nbsp;
+done what we we want to do and then we can kind of&nbsp;&nbsp;
+
+00:15:45.120 --> 00:15:54.800
+follow in their footsteps um in that sense i i&nbsp;
+don't have anybody who is my role model i mean&nbsp;&nbsp;
+
+00:15:54.800 --> 00:16:00.480
+there are many people who i aspire to in in&nbsp;
+various different ways um definitely and there&nbsp;&nbsp;
+
+00:16:00.480 --> 00:16:07.920
+are many people who i i can kind of look up to&nbsp;
+and think i want to do what they are doing um&nbsp;&nbsp;
+
+00:16:08.640 --> 00:16:16.000
+but it's always very intangible still so i still&nbsp;
+feel i'm kind of the first one going the steps&nbsp;&nbsp;
+
+00:16:16.000 --> 00:16:23.760
+and and seeing what happens i i can imagine&nbsp;
+and which gives you the opportunity to be a&nbsp;&nbsp;
+
+00:16:23.760 --> 00:16:30.000
+role model for others who come after you which&nbsp;
+is cool also um but it's always more difficult&nbsp;&nbsp;
+
+00:16:30.000 --> 00:16:35.600
+being the first then i think it takes a certain&nbsp;
+kind of character to to actually do that as from&nbsp;&nbsp;
+
+00:16:35.600 --> 00:16:41.200
+one and very centered because you have to be&nbsp;
+very clear in what you actually want to achieve&nbsp;&nbsp;
+
+00:16:41.200 --> 00:16:46.400
+which brings me to my next question what kind&nbsp;
+of goals do you have i mean you enjoy working&nbsp;&nbsp;
+
+00:16:46.400 --> 00:16:51.840
+with data obviously but do you have anything&nbsp;
+in terms of career path that you have as a goal&nbsp;&nbsp;
+
+00:16:53.520 --> 00:17:02.640
+um now i kind of um i kind of have a rule to&nbsp;
+myself which is to create a plan but don't&nbsp;&nbsp;
+
+00:17:02.640 --> 00:17:13.280
+expect things to go to plan um and i think it's&nbsp;
+because um up until my so in my bachelor's and&nbsp;&nbsp;
+
+00:17:13.280 --> 00:17:20.320
+even before when i was at um college and school&nbsp;
+kind of if you work hard then then you get good&nbsp;&nbsp;
+
+00:17:20.320 --> 00:17:27.520
+results coming out um and then ac it's quite&nbsp;
+easy to have a plan of i will do this and then&nbsp;&nbsp;
+
+00:17:27.520 --> 00:17:39.600
+do this and do this um but then i think um when i&nbsp;
+had to restart my phd um here then i realized like&nbsp;&nbsp;
+
+00:17:40.320 --> 00:17:45.840
+you can be you can be really good at what you're&nbsp;
+doing but sometimes things just don't go to plan&nbsp;&nbsp;
+
+00:17:46.480 --> 00:17:55.680
+and then this is why now i i my goal is to&nbsp;
+keep enjoying what i'm doing i would say so&nbsp;&nbsp;
+
+00:17:55.680 --> 00:18:03.120
+my goal at the moment i i've been working i've&nbsp;
+been focusing my efforts on visualization for&nbsp;&nbsp;
+
+00:18:03.120 --> 00:18:08.240
+and data analytics in terms of coding and this&nbsp;
+kind of thing i've been focusing on this for at&nbsp;&nbsp;
+
+00:18:08.240 --> 00:18:14.400
+least four years and i'm still really enthusiastic&nbsp;
+about it um so this is kind of my goal&nbsp;&nbsp;
+
+00:18:15.120 --> 00:18:22.800
+um but i know i have a range of skills&nbsp;
+so not only on the coding side and&nbsp;&nbsp;
+
+00:18:23.600 --> 00:18:27.840
+going towards the software development&nbsp;
+side but also on the communication side&nbsp;&nbsp;
+
+00:18:28.800 --> 00:18:34.480
+and and creating links between businesses&nbsp;
+and more technical people who maybe um&nbsp;&nbsp;
+
+00:18:35.440 --> 00:18:43.920
+cannot express what they want to say so so well&nbsp;
+so i i feel like i have a range of tools on my&nbsp;&nbsp;
+
+00:18:43.920 --> 00:18:52.080
+belt and at the moment i'm i'm focusing more&nbsp;
+on developing my software development skills&nbsp;&nbsp;
+
+00:18:52.080 --> 00:18:59.440
+um because this is where my interest lies&nbsp;
+right now but i don't necessarily have an aim&nbsp;&nbsp;
+
+00:19:00.560 --> 00:19:07.440
+i just want to keep enjoying what i'm doing&nbsp;
+that's cool um and i think that's an important&nbsp;&nbsp;
+
+00:19:07.440 --> 00:19:12.720
+part i mean a job like like yours means that&nbsp;
+you have to stay on top of the technology&nbsp;&nbsp;
+
+00:19:12.720 --> 00:19:17.200
+and the developments and in the field and all&nbsp;
+that and that is easier if you actually enjoy&nbsp;&nbsp;
+
+00:19:17.200 --> 00:19:22.400
+what you're doing so passion and enthusiasm&nbsp;
+for what you do is a big thing i feel right&nbsp;&nbsp;
+
+00:19:23.120 --> 00:19:30.560
+yeah definitely yeah so in terms of work&nbsp;
+environment um i since this is women in technology&nbsp;&nbsp;
+
+00:19:30.560 --> 00:19:38.640
+um do you have a lot of women you work with or&nbsp;
+is it more men what what's it like so in our team&nbsp;&nbsp;
+
+00:19:38.640 --> 00:19:45.680
+at the moment they're we're split into project&nbsp;
+managers and then data scientists and i would say&nbsp;&nbsp;
+
+00:19:45.680 --> 00:19:54.800
+um on the project management side it's uh&nbsp;
+strongly women and i would say on the data&nbsp;&nbsp;
+
+00:19:54.800 --> 00:20:01.760
+scientist side it's strongly men so for the first&nbsp;
+year no not first year for the first six months&nbsp;&nbsp;
+
+00:20:01.760 --> 00:20:06.240
+when i was working in my current position&nbsp;
+i was the only woman in a data science role&nbsp;&nbsp;
+
+00:20:06.960 --> 00:20:15.120
+um and then my my colleague yelana milosevic&nbsp;
+joined and that was very nice um even though&nbsp;&nbsp;
+
+00:20:15.120 --> 00:20:21.200
+we don't work together but it was still it was&nbsp;
+still nice um and also my boss is a woman as&nbsp;&nbsp;
+
+00:20:21.200 --> 00:20:29.360
+well which i really appreciate so um i think it&nbsp;
+and she's also a very technical person as well so&nbsp;&nbsp;
+
+00:20:30.160 --> 00:20:39.600
+i even though on a daily basis i never&nbsp;
+work with technical women really um it's&nbsp;&nbsp;
+
+00:20:39.600 --> 00:20:48.160
+nice to know that they are there because i think&nbsp;
+the diversity in teams like this is important&nbsp;&nbsp;
+
+00:20:48.160 --> 00:20:53.840
+i tend to agree but i would like to ask why did&nbsp;
+you feel that it is nice for her to come on board&nbsp;&nbsp;
+
+00:20:53.840 --> 00:21:07.760
+what difference did you feel um i think um when&nbsp;
+i think when a team is too homogenous um then um&nbsp;&nbsp;
+
+00:21:09.120 --> 00:21:17.520
+some some ways can some ways or beings can be a&nbsp;
+bit exclusive rather than inclusive so i think the&nbsp;&nbsp;
+
+00:21:17.520 --> 00:21:23.120
+more that there are different there are clearly&nbsp;
+different groups of people together the more&nbsp;&nbsp;
+
+00:21:23.120 --> 00:21:30.720
+um the more inclusive it can be and this also goes&nbsp;
+in the sense um of in our team we have some people&nbsp;&nbsp;
+
+00:21:30.720 --> 00:21:36.720
+who are more chatty and then some people who are&nbsp;
+more quiet or prefer to work by themselves and&nbsp;&nbsp;
+
+00:21:36.720 --> 00:21:43.760
+i i think like if you were if it were 90 chatty&nbsp;
+then the quiet person would not feel so included&nbsp;&nbsp;
+
+00:21:43.760 --> 00:21:50.320
+if it were 90 quiet then the chatty person would&nbsp;
+not feel so included so i think having having this&nbsp;&nbsp;
+
+00:21:50.880 --> 00:21:57.840
+um diversity really allows each um each&nbsp;
+group of people to feel more comfortable&nbsp;&nbsp;
+
+00:21:59.520 --> 00:22:03.680
+that is a very good insight it's not about&nbsp;
+having someone who is completely like you&nbsp;&nbsp;
+
+00:22:03.680 --> 00:22:08.400
+it's about having many different people so&nbsp;
+everyone can beat themselves themselves i&nbsp;&nbsp;
+
+00:22:08.400 --> 00:22:14.480
+think yeah you put it in english yeah um yeah and&nbsp;
+i feel that you're also doing a lot to make the&nbsp;&nbsp;
+
+00:22:14.480 --> 00:22:21.200
+i.t more diverse by giving all these talks&nbsp;
+that for example for women are developed female&nbsp;&nbsp;
+
+00:22:21.200 --> 00:22:26.800
+developers so what i'm sorry i forgot the name&nbsp;
+of the group but women in data science and and we&nbsp;&nbsp;
+
+00:22:26.800 --> 00:22:34.640
+are developers sorry and yeah things like that um&nbsp;
+what made you start doing these things i think i&nbsp;&nbsp;
+
+00:22:36.480 --> 00:22:44.160
+like during my phd time we we had this thing&nbsp;
+called um uh monday seminar where once a year&nbsp;&nbsp;
+
+00:22:44.160 --> 00:22:49.520
+you would have to present your results to&nbsp;
+the rest of the campus and then this really&nbsp;&nbsp;
+
+00:22:50.720 --> 00:23:01.280
+gave me practice in presenting things and telling&nbsp;
+stories and um i suppose because i because&nbsp;&nbsp;
+
+00:23:01.280 --> 00:23:07.840
+i've been in the audience so many times&nbsp;
+and really just being completely lost and&nbsp;&nbsp;
+
+00:23:08.720 --> 00:23:12.160
+so it's really important for&nbsp;
+me that presentations are good&nbsp;&nbsp;
+
+00:23:12.720 --> 00:23:19.120
+um good and they are understandable so um&nbsp;
+this is why i also like to do them because&nbsp;&nbsp;
+
+00:23:19.120 --> 00:23:26.240
+i think it's important that people can um&nbsp;
+understand what's being said and also i think&nbsp;&nbsp;
+
+00:23:27.600 --> 00:23:34.240
+sometimes if there is a complicated presentation&nbsp;
+sometimes people think so a person in the audience&nbsp;&nbsp;
+
+00:23:34.240 --> 00:23:40.480
+might think that they are too stupid to understand&nbsp;
+what's what the topic is and it it's not the case&nbsp;&nbsp;
+
+00:23:40.480 --> 00:23:45.680
+at all um it is the responsibility of&nbsp;
+the person presenting to make sure that&nbsp;&nbsp;
+
+00:23:46.560 --> 00:23:54.000
+their message is clear and um and i think i&nbsp;
+have presented in the past when you see people
+
+00:23:56.080 --> 00:24:01.920
+it's really nice to see when people get it&nbsp;
+whilst you're presenting they understand&nbsp;&nbsp;
+
+00:24:01.920 --> 00:24:07.760
+what you're talking about and then i also&nbsp;
+get good feedback afterwards because people&nbsp;&nbsp;
+
+00:24:07.760 --> 00:24:14.880
+say that they really liked how i did this thing or&nbsp;
+i made it understandable and they never realized&nbsp;&nbsp;
+
+00:24:15.440 --> 00:24:22.720
+that two things were linked in the way that&nbsp;
+i explained them um and and i think getting&nbsp;&nbsp;
+
+00:24:22.720 --> 00:24:28.960
+good feedback from people is kind of um&nbsp;
+always a good motivation to continue i&nbsp;&nbsp;
+
+00:24:28.960 --> 00:24:33.920
+love how you talked about that it's um the&nbsp;
+responsibility of the presenter to make&nbsp;&nbsp;
+
+00:24:33.920 --> 00:24:39.040
+people understand what you're talking about and&nbsp;
+i also feel so important because what you have&nbsp;&nbsp;
+
+00:24:40.240 --> 00:24:44.720
+observed i've also seen you know people obviously&nbsp;
+don't know what you're talking about but they&nbsp;&nbsp;
+
+00:24:44.720 --> 00:24:49.440
+don't ask because the problem is aggravated&nbsp;
+because nobody seems to really understands but&nbsp;&nbsp;
+
+00:24:49.440 --> 00:24:54.080
+nobody wants to be the first to ask a question so&nbsp;
+you have these bad presentations and you have the&nbsp;&nbsp;
+
+00:24:54.080 --> 00:24:59.040
+audience that just sits there and stares at you&nbsp;
+and um yeah this is something we definitely need&nbsp;&nbsp;
+
+00:24:59.040 --> 00:25:06.960
+to address and i think what you do also helps um&nbsp;
+people feel more comfortable with actually being&nbsp;&nbsp;
+
+00:25:06.960 --> 00:25:10.960
+in that field because they you know this moment&nbsp;
+where you understand something is the moment where&nbsp;&nbsp;
+
+00:25:10.960 --> 00:25:20.320
+you feel you can do it too you know so yeah thank&nbsp;
+you for for looking at this this issue um so you&nbsp;&nbsp;
+
+00:25:20.880 --> 00:25:29.600
+had a kind of um common path into i.t being a&nbsp;
+natural scientist and and then moving into i.t but&nbsp;&nbsp;
+
+00:25:29.600 --> 00:25:36.400
+if you were a young woman and you were starting&nbsp;
+out now to to get um on this career journey what&nbsp;&nbsp;
+
+00:25:36.400 --> 00:25:41.840
+would you want what would you have wanted to&nbsp;
+know at the beginning or what recommendations&nbsp;&nbsp;
+
+00:25:41.840 --> 00:25:51.120
+would you give to a young woman starting out or a&nbsp;
+girl in school this is interesting um so one thing&nbsp;&nbsp;
+
+00:25:52.240 --> 00:25:59.520
+you mentioned a girl in school and that reminds&nbsp;
+me of kind of a reason i think my path was a bit&nbsp;&nbsp;
+
+00:25:59.520 --> 00:26:06.960
+like not direct and zigzagged because in the uk&nbsp;
+you can you choose you study 11 subjects up until&nbsp;&nbsp;
+
+00:26:06.960 --> 00:26:16.400
+the age of 16 and then you only study four from&nbsp;
+16 to 18 and then um and then at university you&nbsp;&nbsp;
+
+00:26:16.400 --> 00:26:24.240
+generally just study one and um what's more the 11&nbsp;
+subjects that you choose to finish when you're 16&nbsp;&nbsp;
+
+00:26:24.240 --> 00:26:32.400
+you choose them when you're 13. so there is really&nbsp;
+really narrow in terms of what you can study um
+
+00:26:35.200 --> 00:26:41.040
+because yeah pretty much if you don't study&nbsp;
+if you don't choose to study geography when&nbsp;&nbsp;
+
+00:26:41.040 --> 00:26:47.200
+you are 13 years old you cannot study it at&nbsp;
+university which is crazy because you're 13&nbsp;&nbsp;
+
+00:26:47.200 --> 00:26:57.600
+years old how do you know um so um one one&nbsp;
+interesting thing when i was thinking about&nbsp;&nbsp;
+
+00:26:57.600 --> 00:27:05.840
+um what i chose to study is that i when i was&nbsp;
+13 i chose to study french and then when i was&nbsp;&nbsp;
+
+00:27:07.440 --> 00:27:14.000
+16 i chose to continue studying french and then&nbsp;
+actually i ended up in montreal where my french&nbsp;&nbsp;
+
+00:27:14.000 --> 00:27:20.000
+got really good and then it was the first time i&nbsp;
+was actually in france which was after i was in&nbsp;&nbsp;
+
+00:27:20.000 --> 00:27:26.880
+montreal because i'd never been to france before&nbsp;
+um but i just think and i just say that because&nbsp;&nbsp;
+
+00:27:26.880 --> 00:27:35.200
+i studied french because i liked it not because&nbsp;
+i was the best at it but because i'd like to end&nbsp;&nbsp;
+
+00:27:35.200 --> 00:27:41.120
+and that kind of led me to montreal and then&nbsp;
+kind of led me where i am now so i really&nbsp;&nbsp;
+
+00:27:42.320 --> 00:27:49.680
+i really think you should study what you&nbsp;
+want to study you study not it's not always&nbsp;&nbsp;
+
+00:27:49.680 --> 00:27:57.840
+about studying what you are the best at but&nbsp;
+study what is fun i think that's really important&nbsp;&nbsp;
+
+00:27:57.840 --> 00:28:10.480
+um and um yeah and i i think i was very fortunate&nbsp;
+looking back because i didn't have anybody who&nbsp;&nbsp;
+
+00:28:10.480 --> 00:28:15.520
+directly told me to my face that i couldn't&nbsp;
+do something yeah and that doesn't mean that&nbsp;&nbsp;
+
+00:28:15.520 --> 00:28:20.480
+representation isn't important because i never&nbsp;
+aspired to be many things because i just didn't&nbsp;&nbsp;
+
+00:28:20.480 --> 00:28:25.920
+know they existed but i was very fortunate&nbsp;
+that i didn't have people around me who were&nbsp;&nbsp;
+
+00:28:26.640 --> 00:28:32.640
+too insecure in themselves and then decided to&nbsp;
+try and limit my possibilities because of this&nbsp;&nbsp;
+
+00:28:32.640 --> 00:28:42.080
+um but i think now in in the digital age so that&nbsp;
+there is a lot more so many more resources on&nbsp;&nbsp;
+
+00:28:42.080 --> 00:28:48.080
+the internet and so many websites you can read&nbsp;
+that people where people create blogs and stuff&nbsp;&nbsp;
+
+00:28:48.080 --> 00:28:54.960
+like this i would definitely give the advice to a&nbsp;
+younger person that um if you want to do something&nbsp;&nbsp;
+
+00:28:55.680 --> 00:29:03.600
+um you can look into it you can find the people&nbsp;
+online you can find the websites online to&nbsp;&nbsp;
+
+00:29:03.600 --> 00:29:10.240
+to learn different things and to know to learn&nbsp;
+different tips and i think that's definitely um&nbsp;&nbsp;
+
+00:29:10.240 --> 00:29:17.680
+the way to go is to do what is is fun and do what&nbsp;
+you want very true thank you you touched on on one&nbsp;&nbsp;
+
+00:29:17.680 --> 00:29:25.440
+very specific thing in the beginning which i also&nbsp;
+find detrimental to to young people is limiting&nbsp;&nbsp;
+
+00:29:25.440 --> 00:29:31.760
+you know their exposure to certain topics and&nbsp;
+information so i feel one thing we should look&nbsp;&nbsp;
+
+00:29:31.760 --> 00:29:36.720
+at and that's obviously not ours a thing to do&nbsp;
+but definitely the education system should be as&nbsp;&nbsp;
+
+00:29:36.720 --> 00:29:42.320
+broad as possible so everybody gets a chance to&nbsp;
+to dabble in different topics and look at them&nbsp;&nbsp;
+
+00:29:42.320 --> 00:29:47.280
+because obviously 13 years is much too young to&nbsp;
+actually decide whether you will like something&nbsp;&nbsp;
+
+00:29:47.280 --> 00:29:56.160
+in the future or not i actually when i was 13 i&nbsp;
+i chose german i i chose i think i chose french&nbsp;&nbsp;
+
+00:29:56.160 --> 00:30:02.320
+no when i was 12 i could choose between german and&nbsp;
+spanish and i chose german because then i got to&nbsp;&nbsp;
+
+00:30:02.320 --> 00:30:08.160
+visit germany and then when i was 13 i decided&nbsp;
+to go for french but now i'm fluent in both so&nbsp;&nbsp;
+
+00:30:08.720 --> 00:30:17.120
+um it worked its way out yeah luckily yeah but&nbsp;
+you never know right where life will take you if&nbsp;&nbsp;
+
+00:30:17.120 --> 00:30:22.560
+it will exactly french or something completely&nbsp;
+different that will be useful you know and then&nbsp;&nbsp;
+
+00:30:22.560 --> 00:30:26.800
+the second thing that makes me thoughtful is that&nbsp;
+you said you were lucky because nobody discouraged&nbsp;&nbsp;
+
+00:30:26.800 --> 00:30:31.360
+you from doing what you're doing and the same is&nbsp;
+true for me and that is probably the reason why i&nbsp;&nbsp;
+
+00:30:32.160 --> 00:30:37.360
+was able to go the path i did but that's&nbsp;
+a sad thing actually you know that you&nbsp;&nbsp;
+
+00:30:37.360 --> 00:30:40.880
+have to be happy that at least nobody&nbsp;
+said don't do it you're not good enough&nbsp;&nbsp;
+
+00:30:41.840 --> 00:30:46.240
+yeah you didn't and you did don't have the&nbsp;
+role models and you don't have the you know the&nbsp;&nbsp;
+
+00:30:47.200 --> 00:30:52.800
+the lift that you might need to go higher&nbsp;
+places i think that's something we can do&nbsp;&nbsp;
+
+00:30:52.800 --> 00:30:56.960
+for others you know telling them that they&nbsp;
+are definitely good you know good enough&nbsp;&nbsp;
+
+00:30:56.960 --> 00:31:02.480
+to choose a career in i.t or in science&nbsp;
+and they will make it so that's something i&nbsp;&nbsp;
+
+00:31:02.480 --> 00:31:08.480
+i feel we should all try to do and thank&nbsp;
+you for coming on my interview thank you&nbsp;&nbsp;
+
+00:31:08.480 --> 00:31:17.840
+for taking the time it was lovely just chatting&nbsp;
+with you thank you and goodbye thank you bye
+
+00:31:24.720 --> 00:31:24.800
+you
+
