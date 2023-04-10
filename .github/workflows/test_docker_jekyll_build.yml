@@ -1,0 +1,14 @@
+name: Test jekyll build in docker
+on: [push, pull_request]
+jobs:
+  Docker_build_and_jekyll_build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Build Image
+        run: |
+          docker build --tag github-io:latest .
+      - name: Test jekyll build in container
+        run: |
+          docker run --rm github-io bundle exec jekyll build

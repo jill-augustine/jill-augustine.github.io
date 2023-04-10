@@ -1,0 +1,18 @@
+### build the image
+
+docker build --tag github-io:latest .
+
+### how to get to the terminal of a container
+
+## option 1 - including creating the container
+# create a container, start it with options -it
+# opens command line after the last command, in this case /bin/bash
+docker run -it github-io 
+
+## option 2 - using an existing container
+# to get the container id of the contain created above
+docker ps -a
+# start a pre-existing container
+docker start containerid
+# use docker exec to run a command in a container that already exists (and is running)
+docker exec -it container /bin/bash

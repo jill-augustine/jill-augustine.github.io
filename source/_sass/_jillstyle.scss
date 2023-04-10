@@ -1,0 +1,259 @@
+.project_sub_navigation {
+    text-align: center;
+}
+.logo_block {
+    float:left;
+}
+.cookie_banner {
+    background:rgba(255,255,255,.5);
+    display:none;
+    height:100%;
+    width:100%;
+    position:fixed; /* to allow z-index */
+    /*text-align:center;
+    top:0; */
+    z-index:10000;
+}
+
+.cookie_banner > div {
+    background-color: rgb(30, 30, 30); 
+    color: rgb(212,212,212);
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    /*max-width: 551px;*/
+    min-height: 100px;
+    vertical-align: middle;
+    width: 100%;
+    position: fixed;
+    bottom:0px;
+    /*border-radius: 8px;*/
+    padding: 3% 5%;
+}
+
+.privacy_info_link {
+    font-weight: unset;
+    margin:2px;
+}
+
+.accept_cookies{
+    background-color: rgb(30, 30, 30); 
+    color: #16a085;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: 700;
+    border-radius: 10%;
+    margin:2px;
+}
+
+.reject_cookies{
+    background-color: rgb(30, 30, 30); 
+    color: #888585;
+    border-style: none;
+    margin:2px;
+}
+
+.highlight {
+    color: #16a085; }
+
+.lowlight {
+    color: #888585; 
+    font-size: 1.17em;
+}
+
+.profile_pic {
+    border: none;
+    box-sizing: border-box;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+}
+
+.profile_pic_row {
+    padding-top: 32px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu__entry {
+    margin-right: 35px;
+    margin-bottom: 10px; 
+}
+
+/* leaves space left and right in all layouts based on default */
+.wrapper {
+    margin: auto;
+    padding: 60px 24px;
+    /*padding-left: 24px;
+    padding-right: 24px; */
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;  
+    /*font-family: 'Manrope', sans-serif;  */
+    /*font-family: 'Varta', sans-serif;  */
+    /*font-family: 'Assistant', sans-serif; */
+    font-size: 100%;
+    color: rgb(212,212,212);
+    background-color: rgb(30, 30, 30); 
+}
+
+/* should be the same as highlight colour */
+h2 {
+    color: #16a085;
+}
+
+video {
+    display: block;
+    width: 100%;
+}
+
+iframe {
+    display: block;
+}
+
+iframe[name^="audio"] {
+    width: 100%;
+}
+
+iframe[name^="video"] {
+    width: 100%;
+    height: 400px; 
+}
+
+iframe[name*="survey"] {
+    width: 640px;
+    height: 1200px; 
+    border: none;
+    margin: auto;
+}
+
+a {
+    color: #6189c5;
+}
+
+.page-title {
+    margin: 30px auto;
+    margin-bottom: 12px;
+    text-align: center; }
+
+.page-title__subtitle, h3 {
+    color: #888585; 
+}
+
+.project_menu {
+    font-size: 110%;
+    margin: 0px;
+    margin-top: 6px;
+    padding: 0px;
+    list-style-type: none; }
+
+.no_bullets {
+    list-style-type: none;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 45%;
+    padding: px;
+  }
+
+.column_dual {
+    float: left;
+    width: 45%;
+    padding: 10px;
+  }
+
+.column_single {
+    width: 66%;
+    padding: 10px;
+  }
+  
+.row {
+    margin: auto
+}
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.caption {
+    margin-top: 0.5em;
+}
+
+/* =Small screen *//*************************************************************/
+@media (max-width: 500px) {
+    .cookie_banner > div {
+        width: auto;
+    }
+    .logo_block {
+        float: none;
+        text-align: center;
+    }
+    .logo {
+        font-size: 250%;
+    }
+
+    .page-title {
+        margin: xauto;
+        text-align: center; 
+    }
+
+    .page-title__text {
+      font-size: 110%; 
+      line-height: 110%;
+    }
+
+    .page-title__subtitle {
+        font-size: 55%; }
+
+    .menu {
+        font-size: 125%;
+        text-align: center;
+    }
+
+    .project_menu {
+        font-size: 100%;
+    }
+
+    .social-links {
+        font-size: 150%;
+        margin: auto auto; }
+    
+    .menu__entry {
+        display: block;
+        margin-right: 0px; }
+    .menu__entry:last-child {
+        margin-bottom: 12px; }
+
+    video, iframe {
+        margin: auto;
+        }
+    
+    iframe[name^="video"] {
+        height: 200px
+    } 
+
+    iframe[name^="audio"] {
+        height: 90px
+    }  
+
+    iframe[name*="survey"] {
+        width: 100%;
+        height: 1450px; 
+        border: none;
+        margin: 0;
+    }
+
+    .column_dual, .column_single {
+        display: block;
+        width: 90%;
+        padding: 10px;
+      }
+  }
