@@ -3,6 +3,7 @@
 
 # source folder
 source: source
+destination: docs
 # folders to exclude from build (relative to source)
 exclude:
   - _data/WomenInTechnologySpotlight
