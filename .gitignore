@@ -10,7 +10,7 @@ HelloAnalytics2.py
 */.DS_Store
 
 # Jeykll files
-.jekyll-cache/*
+**/.jekyll-cache/*
 
 
 # History files
