@@ -1,0 +1,30 @@
+I"N<h2 id="background">Background</h2>
+
+<p>In May 2020, an EUvsVirus hackathon took place which aimed to bring to develop solutions to help during the COVID-19 pandemic. Hundreds of teams submitted proposals of their innovative solutions. These proposals took the form of a large amount of text data. Together with other members of the Vienna Data Science community, I analysed the texts of the project proposals and cluterested similar texts together.</p>
+
+<h2 id="aim">Aim</h2>
+
+<p>The possible outcome of this clustering was that the EUvsVirus Hackathon organisers could connect different teams from around Europe who had similar interests and could possibly collaborate on their solutions in the future,</p>
+
+<h2 id="web-scraping">Web Scraping</h2>
+
+<p>My main contributions in this collaborative project were scraping the anonymised text submission data from the EUvsVirus website and providing it to the team in a readable form.  In addition to scraping the data, I also made the code used for web scraping more robust by adding error handling in case of unsuccessful ‘scrapes’.</p>
+
+<h2 id="natural-language-processing">Natural Language Processing</h2>
+
+<p>The main steps in text analysis are as follows (the notebook itself can be found <a href="https://github.com/d4gv/EUvsVirus_ProjectClusters/blob/master/notebooks/3.0-ja-clustering2.ipynb">here</a>):</p>
+
+<ul>
+  <li>Identifying commonly used headings and excluding them from further analysis.</li>
+  <li>Splitting lines of text into individual words</li>
+  <li>Excluding English stop words</li>
+  <li>Stemming of words using the PorterStemmer from the nltk python package</li>
+  <li>Extracting numerical information from the stemmed workds using Term Frequency Inverse Doccument Frequency (TF-IDF)</li>
+  <li>Filtering our ‘nonsense’ words containing too many digits.</li>
+  <li>Perform agglomerative clustering using cosine distance into 100 and 200 clusters.</li>
+</ul>
+
+<h2 id="more-information">More Information</h2>
+
+<p>The code for this project can be found in the <a href="https://github.com/d4gv/EUvsVirus_ProjectClusters">GitHub Repository</a>.</p>
+:ET
