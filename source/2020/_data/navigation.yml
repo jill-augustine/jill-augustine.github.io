@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Projects
+  link: /projects.html
+- name: DS Toolbox
+  link: /toolbox.html
+- name: Useful Resources
+  link: /resources.html
+- name: Talks & Interviews
+  link: /talks.html
