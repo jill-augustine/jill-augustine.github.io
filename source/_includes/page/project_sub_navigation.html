@@ -1,9 +1,9 @@
 <div class="project_sub_navigation">
-    <ul class='project_menu'>
+  <ul class='project_menu'>
     {% for item in site.data.project_navigation %}
-    <li class='menu__entry'><a href="{{ item.link}}" {% if page.url == item.link %} class="highlight"{% endif %}>
-      {{ item.name }}
-    </a></li>
+    <li class='menu__entry'><a href="{{ item.link}}" {% if page.url==item.link %} class="highlight" {% endif %}>
+        {{ item.name }}
+      </a></li>
     {% endfor %}
-    </ul>
+  </ul>
 </div>

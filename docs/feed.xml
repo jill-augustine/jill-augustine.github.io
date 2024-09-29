@@ -3,11 +3,11 @@
   <channel>
     <title>Jill Augustine</title>
     <description></description>
-    <link>www.jill.codes/</link>
-    <atom:link href="www.jill.codes/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Apr 2023 18:44:53 +0200</pubDate>
-    <lastBuildDate>Mon, 10 Apr 2023 18:44:53 +0200</lastBuildDate>
-    <generator>Jekyll v4.1.1</generator>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 28 Sep 2024 19:29:37 +0000</pubDate>
+    <lastBuildDate>Sat, 28 Sep 2024 19:29:37 +0000</lastBuildDate>
+    <generator>Jekyll v3.10.0</generator>
     
   </channel>
 </rss>
