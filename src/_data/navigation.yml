@@ -1,7 +1,5 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
 - name: Projects
   link: /projects.html
 - name: DS Toolbox
@@ -10,3 +8,5 @@
   link: /resources.html
 - name: Talks & Interviews
   link: /talks.html
+- name: Imprint & Disclaimer
+  link: /about.html

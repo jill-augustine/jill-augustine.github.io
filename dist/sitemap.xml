@@ -6,24 +6,9 @@
   
     
     <url>
-      <loc>http://0.0.0.0:4000/about.html</loc>
+      <loc>http://0.0.0.0:5000/about.html</loc>
       
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://0.0.0.0:4000/projects/euvsvirus.html</loc>
-      
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
+        <lastmod>2024-09-29T17:54:20+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -36,9 +21,24 @@
   
     
     <url>
-      <loc>http://0.0.0.0:4000/feed.xml</loc>
+      <loc>http://0.0.0.0:5000/bio.html</loc>
       
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
+        <lastmod>2024-09-29T17:54:20+00:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.8</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://0.0.0.0:5000/feed.xml</loc>
+      
+        <lastmod>2024-09-29T17:54:20+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -51,9 +51,9 @@
   
     
     <url>
-      <loc>http://0.0.0.0:4000/</loc>
+      <loc>http://0.0.0.0:5000/</loc>
       
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
+        <lastmod>2024-09-29T17:54:20+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,24 +66,9 @@
   
     
     <url>
-      <loc>http://0.0.0.0:4000/assets/css/main.css</loc>
+      <loc>http://0.0.0.0:5000/assets/css/main.css</loc>
       
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://0.0.0.0:4000/projects/plotlywrapper.html</loc>
-      
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
+        <lastmod>2024-09-29T17:54:20+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,24 +81,9 @@
   
     
     <url>
-      <loc>http://0.0.0.0:4000/projects.html</loc>
+      <loc>http://0.0.0.0:5000/projects.html</loc>
       
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://0.0.0.0:4000/resources.html</loc>
-      
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
+        <lastmod>2024-09-29T17:54:20+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -126,24 +96,9 @@
   
     
     <url>
-      <loc>http://0.0.0.0:4000/projects/shiny.html</loc>
+      <loc>http://0.0.0.0:5000/resources.html</loc>
       
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://0.0.0.0:4000/projects/shinytweetypeople.html</loc>
-      
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
+        <lastmod>2024-09-29T17:54:20+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -158,24 +113,9 @@
   
     
     <url>
-      <loc>http://0.0.0.0:4000/talks.html</loc>
+      <loc>http://0.0.0.0:5000/talks.html</loc>
       
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://0.0.0.0:4000/toolbox.html</loc>
-      
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
+        <lastmod>2024-09-29T17:54:20+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -188,9 +128,9 @@
   
     
     <url>
-      <loc>http://0.0.0.0:4000/projects/website.html</loc>
+      <loc>http://0.0.0.0:5000/toolbox.html</loc>
       
-        <lastmod>2024-09-28T19:29:37+00:00</lastmod>
+        <lastmod>2024-09-29T17:54:20+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

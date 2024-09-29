@@ -5,7 +5,7 @@ subtitle: A list of resources I often use and recommend
 headings: [Books, Documentation, Cheatsheets, Podcasts, Social]
 ---
 <div class="project_sub_navigation">
-    <ul class='project_menu'>
+    <ul class='page_menu'>
     {% for item in page.headings %}
     <li class='menu__entry'><a href="{{ item | downcase | prepend: '#'}}">
       {{ item }}
@@ -45,7 +45,7 @@ This book has some good illustrations on how scikit learn works and might be hel
 
 [Fluent Python - Luciano Ramalho](https://www.goodreads.com/book/show/22800567-fluent-python)
 
-If you are like me and want to understand the inner workings of Python, this is a good read. This book helped me learn more about base python. I didn't read it cover to cover but pick it up, read a chapter and you will learn something new to improve your code. 
+If you are like me and want to understand the inner workings of Python, this is a good read. This book helped me learn more about base python. I didn't read it cover to cover but pick it up, read a chapter and you will learn something new to improve your code.
 
 [Weapons of Math Destruction - Cathy O'Neil](https://weaponsofmathdestructionbook.com/)
 
@@ -58,9 +58,10 @@ I've not fully explored this yet but it seems like a great resource on how to en
 This book should be your first reference when trying to work out how to do certain things using ggplot2.
 
 <p><a href="https://linuxcommand.org/tlcl.php">The Linux Command Line - William Shotts</a><span class=highlight> (Free)</span></p>
-Great reference and introduction to Linux commands. I consider linux command line basics as essential for any programmer. 
+Great reference and introduction to Linux commands. I consider linux command line basics as essential for any programmer.
 
 <a id="documentation"></a>
+
 ## Documentation (API References)
 
 Whenever I am coding I have mutliple documentation pages open. It's not possible to remember how every single function is used. I'm a big fan of documentation so clicking through the "related functions" lets me discover new functions which are sometimes even more suited to what I want to do.
@@ -99,7 +100,7 @@ This documenations is for **Plotly Express**, the high-level interface/API for c
 
 [Plotly (for Python) Figure Reference](https://plotly.com/python/reference/index/)
 
-This is my go-to for all (detailed) things plotly. It is the complete API guide for Figures. If you are already familiar with plotly Figures and want to find out all there is to know, reading this will give you the answers. I strongly recommend using the "magic underscores" when using plotly rather than nested dictionaries. 
+This is my go-to for all (detailed) things plotly. It is the complete API guide for Figures. If you are already familiar with plotly Figures and want to find out all there is to know, reading this will give you the answers. I strongly recommend using the "magic underscores" when using plotly rather than nested dictionaries.
 
 [caret](https://topepo.github.io/caret/)
 
@@ -130,6 +131,7 @@ This is a question and answer site about a range of coding topics. It's not a si
 A collection of video and written tutorials great for helping you develop shiny web applications.
 
 <a id="cheatsheets"></a>
+
 ## Cheatsheets
 
 [R Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
@@ -153,6 +155,7 @@ I don't have a recommendation for a specific cheatsheet but I recommend finding 
 A great resource to test your machine learning knowledge every now and then.
 
 <a id="podcasts"></a>
+
 ## Podcasts
 
 ### General
@@ -184,6 +187,7 @@ If you're curious about the role of data in the real world, this podcast is for 
 This podcast is an intermediate level podcast about different machine learning related mathmatical concepts and algorithms. Presented by one expert, [Katie Malone](https://twitter.com/multiarmbandit), and one non-expert, Ben (couldn't find his SM details!).
 
 <a id="social"></a>
+
 ## Social
 
 [Twitter](https://twitter.com/)
@@ -216,4 +220,3 @@ I like to stay active in the twitter-sphere to keep track of the latest data sci
     </ul>
 </div>
 <br>
-
