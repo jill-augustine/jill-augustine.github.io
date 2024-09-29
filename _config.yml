@@ -2,8 +2,8 @@
 # global configurations
 
 # source folder
-source: source
-destination: docs
+source: src
+destination: dist
 # folders to exclude from build (relative to source)
 exclude:
   - _data/WomenInTechnologySpotlight
