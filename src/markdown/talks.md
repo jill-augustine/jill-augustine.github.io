@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Talks & Interviews
 headings: 
     - name: Women In Technology Spotlight 2021

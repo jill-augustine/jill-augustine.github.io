@@ -1,6 +1,5 @@
 ---
-layout: page
-title: Useful Resources
+title: Useful Resources  # or a.k.a Workshop Materials
 subtitle: A list of resources I often use and recommend
 headings: [Books, Documentation, Cheatsheets, Podcasts, Social]
 ---
@@ -13,6 +12,52 @@ headings: [Books, Documentation, Cheatsheets, Podcasts, Social]
     {% endfor %}
     </ul>
 </div>
+
+<!-- ---
+
+title: Data Science Toolbox
+subtitle: A list of my current go-to tools
+---
+
+## Data Manipulation
+
+- pandas, numpy
+- Apache Spark
+- tidyverse
+- Microsoft Excel (for team members accustomed to pivot tables)
+
+## (Real-Time) Data Collection/Extraction
+
+- SQL (Hive)
+- Apache Kafka
+
+## Data Storage
+
+- parquet files
+- Hadoop Distributed File System (HDFS)
+- SQL databases
+
+## Data Visualisation
+
+- ggplot2
+- plotly (python API)
+- seaborn
+
+## Machine Learning
+
+- caret
+- scikit-learn
+
+## Documentation & Project Work
+
+- R Markdown
+- Jupyter Notebooks
+- Confluence
+- Jira
+- Git
+
+--- -->
+
 <a id="books"></a>
 ## Books
 

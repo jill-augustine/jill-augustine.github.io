@@ -26,6 +26,12 @@ docker run -p 127.0.0.1:4000:5000 -it github-io bundle exec jekyll serve --host 
 ```
 to run the `bundle exec` command in the container, effectively linking the two commands above.
 
+Recommended: mount as follows:
+
+```
+docker run -p 127.0.0.1:4000:5000 -v ".:/jekyll/." -it github-io bundle exec jekyll serve --host 0.0.0.0 --port 5000
+```
+
 Note the `--rm` option of `docker run` removes the container after it has been exited.
 
 Check ability to build with the following:

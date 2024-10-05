@@ -2,19 +2,20 @@
 <html lang="en">
 
 <head>
-    {% include meta_tags/base.html %}
-    {% include google_analytics.html %}
-    {% include jillstyling.html %}
-    {% include cookie_banner.html%}
+    {% include head/meta.html %}
+    {% include head/google_analytics.html %}
+    {% include head/jillstyling.html %}
+    {% include head/cookie_banner.html%}
+    {% include head/bootstrap_css.html %}
 </head>
 
 <body>
     <div class="wrapper">
-        {% include page/header.html %}
-        {% include page/main_navigation.html %}
+        {% include body/header.html %}
+        {% include body/main_navigation.html %}
         {{ content }}
     </div>
-    {% include externals/scripting.html %}
+    {% include body/scripting.html %}
 </body>
 
 </html>

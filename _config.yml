@@ -18,16 +18,27 @@
 # source folder
 source: src
 destination: dist
-# folders to exclude from build (relative to source)
-exclude:
-  - _data/WomenInTechnologySpotlight
-  - HelloAnalytics.py
-  - HelloAnalytics2.py
-  - userexplorer-jillcodesua-key.json
+incremental: true
+# folders to include/exclude from build (relative to source)
+include:
+  - markdown
+# exclude:
+#   - _data/WomenInTechnologySpotlight
+#   - HelloAnalytics.py
+#   - HelloAnalytics2.py
+#   - userexplorer-jillcodesua-key.json
 
 
 # build configurations
 baseurl: "" # the subpath of your site, e.g. /blog/
+
+defaults:
+  - scope:
+      path: "markdown"  # limit scope to `markdown` dir
+    values:
+      permalink: :basename
+      layout: page
+
 
 # other configurations
 

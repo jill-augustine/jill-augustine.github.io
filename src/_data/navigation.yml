@@ -1,12 +1,30 @@
 - name: Home
   link: /
-- name: Projects
-  link: /projects.html
-- name: DS Toolbox
-  link: /toolbox.html
+- name: About
+  link: /about.html  ## or maybe as a link in footer instead of a page in the header
+  sections:
+  - name: Imprint
+    slug: imprint
+  - name: Privacy Statement
+    slide: privacystatement
+  - name: Disclaimer
+    slug: disclaimer
+# - name: Projects
+#   link: /projects.html
+# - name: DS Toolbox
+#   link: /toolbox.html
+- name: Reading List
+  link: readinglist.html
+  sections:
+  - name: Code
+  - name: Systems
+  - name: People
 - name: Useful Resources
   link: /resources.html
-- name: Talks & Interviews
-  link: /talks.html
-- name: Imprint & Disclaimer
-  link: /about.html
+  sections:
+  - name: Workshop Materials
+  - name: Toolbox
+# - name: Talks & Interviews
+#   link: /talks.html
+# - name: Imprint & Disclaimer
+#   link: /about.html
