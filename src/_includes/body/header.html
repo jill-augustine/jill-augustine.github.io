@@ -1,29 +1,20 @@
-<header class="header">
-  <div class="logo_block">
-    <a href="{{ '/' | prepend: site.baseurl }}" class="logo">{{ site.title }}</a>
-  </div>
-  <div>
-    <ul class="social-links">
-      {% if site.author.email %}
-      <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
-        <i class="fa fa-envelope-square"></i>
-      </a>
-      {% endif %}
-      {% if site.author.github %}
-      <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-        <i class="fa fa-github"></i>
-      </a>
-      {% endif %}
-      {% if site.author.linkedin %}
-      <a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
-        <i class="fa fa-linkedin"></i>
-      </a>
-      {% endif %}
-      {% if site.author.twitter %}
-      <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
-        <i class="fa fa-twitter"></i>
-      </a>
-      {% endif %}
-    </ul>
-  </div>
+
+<header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
+  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto navbar-brand text-decoration-none">
+    <tt class="fs-1 text-body-tertiary px-3">{{ site.title }}</tt>
+  </a>
+  <ul class="nav nav-pills ms-md-auto align-items-center">
+        {% for item in site.data.navigation %}
+        {% unless item.name == "About" %}
+        <li class="nav-item">
+          <!-- operators (or, and) evaluated from right to left -->
+          <a {% if page.url==item.link or page.url=="/index" and item.link=="/" %} class="nav-link active text-decoration-none"
+            aria-current="page" href="{{ item.link }}" {% else %} class="nav-link text-decoration-none" aria-current="false"
+            href="{{ item.link }}" {% endif %}>
+            {{ item.name }}
+          </a>
+        </li>
+        {% endunless %}
+        {% endfor %}
+  </ul>
 </header>

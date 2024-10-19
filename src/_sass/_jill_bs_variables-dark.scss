@@ -1,0 +1,20 @@
+// Custom bootstrap variables to set or imported *before* bootstrap.
+
+$body-color-dark: $j-white;
+$body-bg-dark: $j-black;
+$body-secondary-color-dark: rgba($j-blue, 1);
+$body-secondary-bg-dark: $body-bg-dark;
+// $body-tertiary-color-dark: rgba($j-green, .5);
+$body-tertiary-color-dark: rgba($j-green, 1);
+$body-tertiary-bg-dark: $body-bg-dark;
+
+// $headings-color-dark: inherit;
+// $headings-color-dark: $j-green;
+$link-color-dark: $body-secondary-color-dark;
+$link-hover-color-dark: shift-color($link-color-dark, -$link-shade-percentage);
+$navbar-dark-brand-color: $body-tertiary-color-dark;
+
+$component-active-color: $body-tertiary-color-dark;
+$component-active-bg: none;
+$nav-pills-link-active-color: $j-green;
+$nav-pills-link-active-bg: none;

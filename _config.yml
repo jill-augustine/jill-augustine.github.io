@@ -43,7 +43,7 @@ defaults:
 # other configurations
 
 # Site settings
-title: Jill Augustine
+title: jill.codes
 description: 
 
 url: "www.jill.codes" # the base hostname & protocol for your site
@@ -52,6 +52,7 @@ author:
   fullname: Jillian Augustine, PhD.
   github: jill-augustine
   linkedin: jillianaugustine
+  email: jaugur.ds@gmail.com
   # instagram: jill_codes
   # twitter: jill_codes
 
