@@ -14,18 +14,24 @@
 
 <link rel="canonical" href="/index">
     <link rel="icon" type="image/png" href="/assets/img/icon_bold_transparent.png" />
-    <link rel="stylesheet" href=" /assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran" rel="stylesheet">
 </head>
 
 <body class="text-bg-dark">
-    <div class="container">
-        
-<header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
-  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto navbar-brand text-decoration-none">
-    <tt class="fs-1 text-body-tertiary px-3">jill.codes</tt>
+        <!-- This layout keeps the main content outside a container div.
+The main content using this layout should be wrapped in a container div. 
+-->
+<div class="container">
+    <!-- Hamburger menu for navbar on right for mobile?  -->
+<header class="row d-flex flex-wrap text-bg-dark justify-content-between py-3 mb-4 border-bottom sticky-md-top">
+  <p class="col-md-4 mb-3 mb-md-0 me-md-auto lh-sm font-monospace">
+  <a href="/" class="row text-start text-decoration-none">
+    <span class="fs-1 text-body-tertiary">jill.codes</span>
   </a>
-  <ul class="nav nav-pills ms-md-auto align-items-center">
+  <span class="small text-body-secondary float-start">all things data</span>
+</p>
+  <ul class="d-flex col-auto nav nav-pills ms-md-auto align-items-center">
         
         
         <li class="nav-item">
@@ -62,53 +68,89 @@
   </ul>
 </header>
 
-        <h1 class="page-title">
-    <div class="page-title__text"></div>
-    <div class="page-title__subtitle"></div>
-</h1>
-
-<div class="profile_pic_row">
-  <img src="assets/img/me4234square2.jpg" alt="&copy; Ina Aydogan" class="profile_pic" width="200px" />
 </div>
-<p>I am a data scientist and question answerer. I received my PhD in Molecular Biology from the University of Vienna (Austria) and my BSc from the University of Leeds (UK) during which I also studied at McGill University (Montreal, Canada).</p>
+    <div class="text-center bg-white mt-n4">
+  <img src="assets/img/202410/0M9A9490.jpg" alt="&copy; Marc Babin" height="200px">
+</div>
 
-<p>My main interest (and the reason I became a data scientist) is using data to answer questions regardless of the industry. I have experience working in both the telecommunications industry as well as the packaging and paper manufacturing.</p>
+<div class="container my-2 my-md-4">
+  <p>I am software developer, data consultant, speaker, and engineering manager. I am currently Team Lead for Insights
+    at <a href="https://anyline.com/">Anyline</a> where, together with my team, I manage the data platform and the
+    insights generated from it.
+  </p>
+  <p>
+    Using data to create value and answer questions is a key interest of mine and a driver of the work I do. My approach
+    when working with data is to use the tools that get the job done, independent of programming language, cloud
+    provider or other tooling. This allows me to take a flexible approach to solution design and development.
+  </p>
 
-<p>In particular I am passionate about data understanding and communication both to stakeholders and within data teams. My professional approach to data science is to use the tool that gets the job done given any constraints from team members and stakeholders. This means I don’t have an answer to the R vs. Python “debate”.</p>
-
-<p>Another interest of mine is increasing the inclusivity of working groups through open exchanges and active diversification. I aim to make my presentations are accessible as possible and welcome feedback as to how I can improve this further. I am also open to opportunities to speak about my work at conferences and meetups.</p>
-
-
-<!-- <div class="about">
-    <div class="about__divider">*****</div>
-    <div class="about__text">
-        <div id="describe-text">
-            <strong> &copy; 2024 Jillian Augustine </strong>
-        </div>
+  <div class="row align-items-center text-center justify-content-evenly my-1 my-md-3">
+    <div class="col-auto p-3">
+      <ul class="text-body-secondary p-0">
+        <li class="fs-4 list-group-item p-1 text-body-tertiary">
+          Focus areas
+        </li>
+        
+        
+        <li class="list-group-item p-1">cloud-based architecture</li>
+        
+        <li class="list-group-item p-1">data visualisation</li>
+        
+        <li class="list-group-item p-1">data science</li>
+        
+        <li class="list-group-item p-1">data management</li>
+        
+        <li class="list-group-item p-1">machine
+        learning</li>
+        
+        <li class="list-group-item p-1">data platform infrastructure</li>
+        
+        </ul>
     </div>
-</div> -->
+    <div class="col-auto p-3">
+        <ul class="text-body-secondary p-0">
 
+        <li class="fs-4 list-group-item p-1 text-body-tertiary">
+          Industries
+        </li>
+          
+          
+          <li class="list-group-item p-1">tech</li>
+          
+          <li class="list-group-item p-1">professional services</li>
+          
+          <li class="list-group-item p-1">manufacturing</li>
+          
+          <li class="list-group-item p-1">telecom</li>
+          
+        </ul>
+    </div>
+  </div>
+
+  <p>Read more about my professional background on <a href="https://www.linkedin.com/in/jillianaugustine/">LinkedIn</a>.
+    <br>
+    For consulting services and speaking opportunities, reach out to me on <a
+      href="https://www.linkedin.com/in/jillianaugustine/">LinkedIn</a>.
+  </p>
+</div>
 <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Jillian Augustine</p>
+        <footer class="row d-flex flex-wrap text-bg-dark justify-content-between align-items-center py-3 my-4 border-top sticky-xxl-bottom text-body-secondary">
+
+        <p class="col mb-0 justify-content-start">&copy; 2024 Jillian Augustine</p>
 
         <a href="/"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <tt class="fs-3 text-body-tertiary px-3">j</tt>
-            <!-- <svg class="bi me-2" width="40" height="32">
-                <use xlink:href="#bootstrap"></use>
-            </svg> -->
+            class="col d-flex align-items-center justify-content-center font-monospace mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none fs-3 text-body-tertiary px-3">j
         </a>
 
-
-        <ul class="nav col-md-4 justify-content-end">
+        <p class="nav col mb-0 justify-content-end">
             
-            <li class="" nav-item><a class="nav-link px-2 text-body-secondary" href="/about">
+            <span class="nav-item">
+                <a class="nav-link" href="/about">
                     About
-                </a></li>
-        </ul>
+                </a>
+            </span>
+        </p>
     </footer>
-</div>
 <!-- 
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
     <symbol id="check2" viewBox="0 0 16 16">
@@ -204,7 +246,8 @@
     </symbol>
 </svg> -->
 
-    </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>

@@ -1,9 +1,12 @@
-
-<header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
-  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto navbar-brand text-decoration-none">
-    <tt class="fs-1 text-body-tertiary px-3">{{ site.title }}</tt>
+<!-- Hamburger menu for navbar on right for mobile?  -->
+<header class="row d-flex flex-wrap text-bg-dark justify-content-between py-3 mb-4 border-bottom sticky-md-top">
+  <p class="col-md-4 mb-3 mb-md-0 me-md-auto lh-sm font-monospace">
+  <a href="/" class="row text-start text-decoration-none">
+    <span class="fs-1 text-body-tertiary">{{ site.title }}</span>
   </a>
-  <ul class="nav nav-pills ms-md-auto align-items-center">
+  <span class="small text-body-secondary float-start">all things data</span>
+</p>
+  <ul class="d-flex col-auto nav nav-pills ms-md-auto align-items-center">
         {% for item in site.data.navigation %}
         {% unless item.name == "About" %}
         <li class="nav-item">

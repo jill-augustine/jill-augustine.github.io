@@ -1,29 +1,29 @@
 ---
 title: About
-headings:
-  - name: Imprint
-    slug: imprint
-  - name: Privacy Statement
-    slide: privacystatement
-  - name: Disclaimer
-    slug: disclaimer
+headingslugs:
+- imprint
+- privacystatement
+- disclaimer
 ---
-<div class="page_navigation">
-  <ul class='page_menu'>
-  {% for heading in page.headings %}
-    {% if heading.slug%}
-      {% assign href = heading.slug %}
-    {% else %}
-      {% capture href %}
-        {{ heading.name | downcase | replace: ' ', '' | prepend: '#'}} %
-      {% endcapture %}
-    {% endif %}
-    <li class='menu__entry'><a href="{{ href }}">
-      {{ heading.name }}
-    </a></li>
-  {% endfor %}
+{% assign sections = site.data.imprint.sections %}
+<nav>
+  <ul class="d-flex flex-wrap nav nav-pills list-inline justify-content-center">
+    {% for slug in page.headingslugs %}
+    <li class="nav-item list-inline-item">
+      <a {% if false %}
+      class="nav-link active text-decoration-none" aria-current="true" href="{{ slug | prepend: '#'}}"
+      {% else %}
+      class="nav-link text-decoration-none" aria-current="false" href="{{ slug | prepend: '#'}}"
+      {% endif %}>
+      {{ page.url }}
+      {{ item.link }}
+      {{ sections[slug].name }}
+      </a>
+    </li>
+    {% endfor %}
   </ul>
-</div>
+</nav>
+
 <a id="imprint"></a>
 
 ## Imprint

@@ -14,18 +14,21 @@
 
 <link rel="canonical" href="/bio">
     <link rel="icon" type="image/png" href="/assets/img/icon_bold_transparent.png" />
-    <link rel="stylesheet" href=" /assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran" rel="stylesheet">
 </head>
 
 <body class="text-bg-dark">
-    <div class="container">
-        
-<header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
-  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto navbar-brand text-decoration-none">
-    <tt class="fs-1 text-body-tertiary px-3">jill.codes</tt>
+        <div class="container">
+    <!-- Hamburger menu for navbar on right for mobile?  -->
+<header class="row d-flex flex-wrap text-bg-dark justify-content-between py-3 mb-4 border-bottom sticky-md-top">
+  <p class="col-md-4 mb-3 mb-md-0 me-md-auto lh-sm font-monospace">
+  <a href="/" class="row text-start text-decoration-none">
+    <span class="fs-1 text-body-tertiary">jill.codes</span>
   </a>
-  <ul class="nav nav-pills ms-md-auto align-items-center">
+  <span class="small text-body-secondary float-start">all things data</span>
+</p>
+  <ul class="d-flex col-auto nav nav-pills ms-md-auto align-items-center">
         
         
         <li class="nav-item">
@@ -62,12 +65,7 @@
   </ul>
 </header>
 
-        <h1 class="page-title">
-    <div class="page-title__text"></div>
-    <div class="page-title__subtitle"></div>
-</h1>
-
-<div class="profile_pic_row">
+    <div class="profile_pic_row">
   <img src="assets/img/me4234square2.jpg" alt="&copy; Ina Aydogan" class="profile_pic" width="200px" />
 </div>
 <p>I am a data scientist and question answerer. I received my PhD in Molecular Biology from the University of Vienna (Austria) and my BSc from the University of Leeds (UK) during which I also studied at McGill University (Montreal, Canada).</p>
@@ -78,37 +76,23 @@
 
 <p>Another interest of mine is increasing the inclusivity of working groups through open exchanges and active diversification. I aim to make my presentations are accessible as possible and welcome feedback as to how I can improve this further. I am also open to opportunities to speak about my work at conferences and meetups.</p>
 
+        <footer class="row d-flex flex-wrap text-bg-dark justify-content-between align-items-center py-3 my-4 border-top sticky-xxl-bottom text-body-secondary">
 
-<!-- <div class="about">
-    <div class="about__divider">*****</div>
-    <div class="about__text">
-        <div id="describe-text">
-            <strong> &copy; 2024 Jillian Augustine </strong>
-        </div>
-    </div>
-</div> -->
-
-<div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Jillian Augustine</p>
+        <p class="col mb-0 justify-content-start">&copy; 2024 Jillian Augustine</p>
 
         <a href="/"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <tt class="fs-3 text-body-tertiary px-3">j</tt>
-            <!-- <svg class="bi me-2" width="40" height="32">
-                <use xlink:href="#bootstrap"></use>
-            </svg> -->
+            class="col d-flex align-items-center justify-content-center font-monospace mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none fs-3 text-body-tertiary px-3">j
         </a>
 
-
-        <ul class="nav col-md-4 justify-content-end">
+        <p class="nav col mb-0 justify-content-end">
             
-            <li class="" nav-item><a class="nav-link px-2 text-body-secondary" href="/about">
+            <span class="nav-item">
+                <a class="nav-link" href="/about">
                     About
-                </a></li>
-        </ul>
+                </a>
+            </span>
+        </p>
     </footer>
-</div>
 <!-- 
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
     <symbol id="check2" viewBox="0 0 16 16">
@@ -204,7 +188,8 @@
     </symbol>
 </svg> -->
 
-    </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>

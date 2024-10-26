@@ -1,33 +1,20 @@
-<!-- <div class="about">
-    <div class="about__divider">*****</div>
-    <div class="about__text">
-        <div id="describe-text">
-            <strong> &copy; 2024 Jillian Augustine </strong>
-        </div>
-    </div>
-</div> -->
+    <footer class="row d-flex flex-wrap text-bg-dark justify-content-between align-items-center py-3 my-4 border-top sticky-xxl-bottom text-body-secondary">
 
-<div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Jillian Augustine</p>
+        <p class="col mb-0 justify-content-start">&copy; 2024 Jillian Augustine</p>
 
         <a href="/"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <tt class="fs-3 text-body-tertiary px-3">j</tt>
-            <!-- <svg class="bi me-2" width="40" height="32">
-                <use xlink:href="#bootstrap"></use>
-            </svg> -->
+            class="col d-flex align-items-center justify-content-center font-monospace mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none fs-3 text-body-tertiary px-3">j
         </a>
 
-
-        <ul class="nav col-md-4 justify-content-end">
+        <p class="nav col mb-0 justify-content-end">
             {% assign about_item = site.data.navigation | where: "name", "About" | first %}
-            <li class="" nav-item><a class="nav-link px-2 text-body-secondary" href="{{ about_item.link }}">
+            <span class="nav-item">
+                <a class="nav-link" href="{{ about_item.link }}">
                     {{ about_item.name }}
-                </a></li>
-        </ul>
+                </a>
+            </span>
+        </p>
     </footer>
-</div>
 <!-- 
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
     <symbol id="check2" viewBox="0 0 16 16">

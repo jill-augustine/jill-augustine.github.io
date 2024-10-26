@@ -1,9 +1,5 @@
 - name: Home
   link: /
-# - name: Projects
-#   link: /projects
-# - name: DS Toolbox
-#   link: /toolbox
 - name: Reading List
   link: /readinglist
   sections:
@@ -12,11 +8,6 @@
   - name: People
 - name: Talks & Interviews
   link: /talks
-# - name: Useful Resources
-#   link: /resources
-#   sections:
-#   - name: Workshop Materials
-#   - name: Toolbox
 - name: About
   link: /about  ## or maybe as a link in footer instead of a page in the header
   sections:

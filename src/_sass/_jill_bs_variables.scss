@@ -25,3 +25,7 @@ $component-active-bg: rgba(0,0,0,0);
 // for hover
 $link-shade-percentage: 0%;
 $link-hover-decoration: underline;
+$code-color-dark: $j-blue;
+
+// To allow a negative margin on the banner photo
+$enable-negative-margins: true

@@ -14,15 +14,23 @@ headings:
     - name: Google's WomenTechmakers Vienna 2019
       link: WomenTechmakers2019
 ---
-<div class="project_sub_navigation">
-    <ul class='page_menu'>
+<nav>
+  <ul class="d-flex flex-wrap nav nav-pills list-inline justify-content-center">
     {% for item in page.headings %}
-    <li class='menu__entry'><a href="{{ item.link | prepend: '#'}}">
+    <li class="nav-item list-inline-item">
+      <a {% if page.url contains item.link %}
+      class="nav-link active text-decoration-none" aria-current="true" href="{{ item.link | prepend: '#'}}"
+      {% else %}
+      class="nav-link text-decoration-none" aria-current="false" href="{{ item.link | prepend: '#'}}"
+      {% endif %}>
+      {{ page.url }}
+      {{ item.link }}
       {{ item.name }}
-    </a></li>
+      </a>
+    </li>
     {% endfor %}
-    </ul>
-</div>
+  </ul>
+</nav>
 
 <a id="WITS2021"></a>
 
