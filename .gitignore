@@ -13,7 +13,6 @@ HelloAnalytics2.py
 **/.jekyll-metadata
 
 gems/**/*
-dist/**
 node_modules/**/*
 
 # History files
