@@ -21,12 +21,7 @@ destination: dist
 incremental: true
 # folders to include/exclude from build (relative to source)
 include:
-  - markdown
-# exclude:
-#   - _data/WomenInTechnologySpotlight
-#   - HelloAnalytics.py
-#   - HelloAnalytics2.py
-#   - userexplorer-jillcodesua-key.json
+  - pages
 
 
 # build configurations
@@ -34,7 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 
 defaults:
   - scope:
-      path: "markdown"  # limit scope to `markdown` dir
+      path: "pages"  # limit scope to `pages` dir
     values:
       permalink: :basename
       layout: page
@@ -54,7 +49,6 @@ author:
   linkedin: jillianaugustine
   email: jaugur.ds@gmail.com
   # instagram: jill_codes
-  # twitter: jill_codes
 
 google_analytics: G-SB9G1QSXQ2
 

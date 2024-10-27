@@ -1,9 +1,0 @@
-<div class="navigation">
-  <ul class="menu">
-    {% for item in site.data.navigation.main_navigation %}
-    <li class='menu__entry'><a href="{{ item.link}}" {% if item.name=="Projects" %} class="highlight" {% endif %}>
-        {{ item.name }}
-      </a></li>
-    {% endfor %}
-  </ul>
-</div>

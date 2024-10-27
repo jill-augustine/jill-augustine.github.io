@@ -2,18 +2,18 @@
 HelloAnalytics2.py
 *key.json
 *.pdf
-**/.DS_Store
+**/*.DS_Store
 
 .vscode/*
 
-*.DS_Store
-*/.DS_Store
+**/*.zip
 
 # Jeykll files
 **/.jekyll-cache/*
+**/.jekyll-metadata
 
 gems/**/*
-
+dist/**
 node_modules/**/*
 
 # History files
