@@ -1,24 +1,10 @@
 # https://jekyllrb.com/docs/configuration/options/
 # global configurations
 
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "pages"
-#     values:
-#       layout: "my-site"
-#   - scope:
-#       path: "projects"
-#       type: "pages" # previously `page` in Jekyll 2.2.
-#     values:
-#       layout: "project" # overrides previous default layout
-#       author: "Mr. Hyde"
-
-
-# source folder
 source: src
 destination: dist
 incremental: true
+
 # folders to include/exclude from build (relative to source)
 include:
   - pages
@@ -51,11 +37,6 @@ author:
   # instagram: jill_codes
 
 google_analytics: G-SB9G1QSXQ2
-
-# Syntax highlighting
-highlightstyle: 'agate'
-styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
-
 
 # Build settings
 highlighter: null

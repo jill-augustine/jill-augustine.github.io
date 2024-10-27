@@ -7,9 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-# gem "jekyll", "~> 4.1.1"
 # gem "jekyll", "~>4.3.3"  # version used in docker
-# gem "kramdown", ">= 2.3.1"
 gem "kramdown-parser-gfm"
 gem "webrick" 
 # webrick is not part of standard bundle since ruby 3.0 https://github.com/jekyll/jekyll/issues/8523
@@ -25,8 +23,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
-# TODO: Check if `sassc` this is needed
-# gem 'sassc'
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
