@@ -12,10 +12,16 @@ HelloAnalytics2.py
 # Jeykll files
 **/.jekyll-cache/*
 
+gems/**/*
+
+node_modules/**/*
 
 # History files
 .Rhistory
 .Rapp.history
+**/*.icloud
+
+.idea/**/*
 
 # Session Data files
 .RData

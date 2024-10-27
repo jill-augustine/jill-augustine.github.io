@@ -1,3 +1,6 @@
+.z-reset {
+  z-index: 1000; }
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -166,9 +169,9 @@
   --bs-dark-border-subtle: #343a40;
   --bs-heading-color: inherit;
   --bs-link-color: #6189c5;
-  --bs-link-hover-color: #6189c5;
+  --bs-link-hover-color: #16a085;
   --bs-link-color-rgb: 97, 137, 197;
-  --bs-link-hover-color-rgb: 97, 137, 197;
+  --bs-link-hover-color-rgb: 22, 160, 133;
   --bs-code-color: #6189c5;
   --bs-highlight-color: #dee2e6;
   --bs-highlight-bg: #664d03;

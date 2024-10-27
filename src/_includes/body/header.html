@@ -6,18 +6,52 @@
   </a>
   <span class="small text-body-secondary float-start">all things data</span>
 </p>
-  <ul class="d-flex col-auto nav nav-pills ms-md-auto align-items-center">
-        {% for item in site.data.navigation %}
-        {% unless item.name == "About" %}
-        <li class="nav-item">
-          <!-- operators (or, and) evaluated from right to left -->
-          <a {% if page.url==item.link or page.url=="/index" and item.link=="/" %} class="nav-link active text-decoration-none"
-            aria-current="page" href="{{ item.link }}" {% else %} class="nav-link text-decoration-none" aria-current="false"
-            href="{{ item.link }}" {% endif %}>
-            {{ item.name }}
-          </a>
-        </li>
-        {% endunless %}
+  <ul class="d-flex col-auto nav nav-pills ms-md-auto align-items-center" id="navbar-header">
+        {% for item in site.data.navigation.main_navigation %}
+          {% if item.name == "About" %}
+            {% continue %}
+          {% elsif item.sections %}
+            <li class="nav nav-item dropdown">
+              <!-- operators (or, and) evaluated from right to left -->
+              <a 
+              {% if page.url==item.link or page.url=="/index" and item.link=="/" %}
+                class="nav-link active dropdown-toggle text-decoration-none"
+                aria-current="page" href="{{ item.link }}"
+                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                role="button"
+              {% else %}
+                class="nav-link dropdown-toggle text-decoration-none" aria-current="false"
+                href="{{ item.link }}"
+                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                role="button"
+              {% endif %}>
+                {{ item.name }}
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                {% for section in item.sections %}
+                <li>
+                  <a class="nav-link dropdown-item text-body-primary" href="{{ item.link }}#{{ section.link }}">
+                    {{ section.name }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="nav-item">
+              <!-- operators (or, and) evaluated from right to left -->
+              <a
+              {% if page.url==item.link or page.url=="/index" and item.link=="/" %}
+                  class="nav-link active text-decoration-none"
+                  aria-current="page" href="{{ item.link }}"
+                {% else %}
+                  class="nav-link text-decoration-none" aria-current="false"
+                  href="{{ item.link }}"
+                {% endif %}>
+                {{ item.name }}
+              </a>
+            </li>
+          {% endif %}
         {% endfor %}
   </ul>
 </header>

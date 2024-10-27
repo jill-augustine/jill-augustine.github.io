@@ -1,19 +1,37 @@
-- name: Home
-  link: /
-- name: Reading List
-  link: /readinglist
-  sections:
-  - name: Code
-  - name: Systems
-  - name: People
-- name: Talks & Interviews
-  link: /talks
-- name: About
-  link: /about  ## or maybe as a link in footer instead of a page in the header
-  sections:
-  - name: Imprint
-    slug: imprint
-  - name: Privacy Statement
-    slide: privacystatement
-  - name: Disclaimer
-    slug: disclaimer
+main_navigation:
+  - name: Home
+    link: /
+  - name: Reading List
+    link: /readinglist
+    sections:
+    - name: Code
+      link: code
+    - name: Systems
+      link: systems
+    - name: People
+      link: people
+  - name: Talks & Interviews
+    link: /talks
+    sections:
+    - name: Women In Technology Spotlight 2021
+      link: WITS2021
+    - name: Austrian AI Podcast 2021
+      link: AustrianAIPodcast2021
+    - name: Women In Data Science CEE 2021
+      link: WIDSCEE2021
+    - name: Mondi & WeAreDevelopers 2019
+      link: MondiWAD2019
+    - name: Big Data LDN 2019
+      link: BigDataLDN2019
+    - name: Google's WomenTechmakers Vienna 2019
+      link: WomenTechmakers2019
+  - name: About
+    link: /about
+    sections:
+    - name: Imprint
+      link: imprint
+    - name: Privacy Statement
+      link: privacystatement
+    - name: Disclaimer
+      link: disclaimer
+

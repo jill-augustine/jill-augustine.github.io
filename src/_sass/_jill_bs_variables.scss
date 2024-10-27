@@ -11,7 +11,9 @@ $j-black: #1e1e1e;
 
 $body-color: $j-black;
 $body-bg: $j-white;
-// TBD currently same as dark
+
+$body-primary-color: $j-white;
+$body-secondary-bg: $body-bg;
 $body-secondary-color: rgba($j-blue, .75); 
 $body-secondary-bg: $body-bg;
 $body-tertiary-color: rgba($j-green, .5);

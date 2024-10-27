@@ -1,6 +1,6 @@
 <div class="navigation">
   <ul class="menu">
-    {% for item in site.data.navigation %}
+    {% for item in site.data.navigation.main_navigation %}
     <li class='menu__entry'><a href="{{ item.link}}" {% if page.url==item.link %} class="highlight" {% endif %}>
         {{ item.name }}
       </a></li>

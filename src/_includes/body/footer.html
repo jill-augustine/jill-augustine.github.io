@@ -1,4 +1,5 @@
-    <footer class="row d-flex flex-wrap text-bg-dark justify-content-between align-items-center py-3 my-4 border-top sticky-xxl-bottom text-body-secondary">
+    <!-- z-reset sets the z-index to default -->
+    <footer class="row d-flex flex-wrap text-bg-dark justify-content-between align-items-center py-3 my-4 border-top sticky-xxl-bottom z-reset text-body-secondary">
 
         <p class="col mb-0 justify-content-start">&copy; 2024 Jillian Augustine</p>
 
@@ -7,7 +8,7 @@
         </a>
 
         <p class="nav col mb-0 justify-content-end">
-            {% assign about_item = site.data.navigation | where: "name", "About" | first %}
+            {% assign about_item = site.data.navigation.main_navigation | where: "name", "About" | first %}
             <span class="nav-item">
                 <a class="nav-link" href="{{ about_item.link }}">
                     {{ about_item.name }}
