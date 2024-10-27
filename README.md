@@ -6,40 +6,27 @@ Code for my personal website.
 
 Build image
 ```
-docker build --tag github-io:latest .
+docker compose build
 ```
 
-Run using the default CMD as written in Dockerfile with port forwarding from 5000 in the container to localhost:4000 locally.
+Run using the default CMD as written in Dockerfile with port forwarding from 5000 in the container to localhost:4000 locally. The site can then viewed in browser at `127.0.0.1:4000` aka localhost.
 ```
-docker run -p 127.0.0.1:4000:5000 -it github-io
-```
-
-Then, inside the container run
-```
-bundle exec jekyll serve --host 0.0.0.0 --port 5000
-```
-to be able to view the page in browser at `127.0.0.1:4000` aka localhost.
-
-Alternatively, run
-```
-docker run -p 127.0.0.1:4000:5000 -it github-io bundle exec jekyll serve --host 0.0.0.0 --port 5000
-```
-to run the `bundle exec` command in the container, effectively linking the two commands above.
-
-Recommended: mount as follows:
-
-```
-docker run -p 127.0.0.1:4000:5000 -v ".:/jekyll/." -it github-io bundle exec jekyll serve --host 0.0.0.0 --port 5000
+docker compose up
 ```
 
-Note the `--rm` option of `docker run` removes the container after it has been exited.
+The container can be removed by running `docker compose down`.
+
+The compose file configures the following when launching a container:
+- The correct port is exposed
+- The command to `serve` has the correct `--host` option set.
+- The required Gemfile and `.bundle` directory are mounted.
 
 Check ability to build with the following:
 ```
-docker run --rm -it github-io bundle exec jekyll build
+docker compose run --rm jekyll bundle exec jekyll build
 ```
 
 You can check the error code with
 ```
-docker run --rm -it github-io bundle exec jekyll build; echo $?
+docker compose run --rm jekyll bundle exec jekyll build; echo $?
 ```

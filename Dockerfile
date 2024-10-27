@@ -12,6 +12,7 @@ EOF
 
 
 RUN useradd -m --home-dir /jekyll --gid 0 --shell /bin/bash jekyll
+RUN chmod 777 /jekyll
 
 
 USER jekyll
@@ -29,8 +30,12 @@ EOF
 # Note: `/jekyll` is $HOME
 ENV GEM_HOME="/jekyll/gems"
 ENV PATH="/jekyll/gems/bin:$PATH"
-
+ENV HOME="/jekyll"
 RUN gem install jekyll:${JEKYLL_VERSION} bundler:${BUNDLER_VERSION}
+COPY --chown=jekyll:jekyll --chmod=774 Gemfile Gemfile.lock _config.yml /jekyll/
+COPY --chown=jekyll:jekyll --chmod=774 src /jekyll/src
 
-CMD bash
+RUN bundle install
+
+CMD ["/bin/bash", "-c", "echo $PWD && ls -al && bundle install && bundle exec jekyll build"]
 
