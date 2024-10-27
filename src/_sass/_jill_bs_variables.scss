@@ -1,0 +1,33 @@
+// Custom bootstrap variables to set or imported *before* bootstrap.
+
+// $primary: #d4d4d4;
+// $secondary: #6189c5;
+// $info: #16a085;
+
+$j-white: #d4d4d4;
+$j-blue: #6189c5;
+$j-green: #16a085;
+$j-black: #1e1e1e;
+
+$body-color: $j-black;
+$body-bg: $j-white;
+
+$body-primary-color: $j-white;
+$body-secondary-bg: $body-bg;
+$body-secondary-color: rgba($j-blue, .75); 
+$body-secondary-bg: $body-bg;
+$body-tertiary-color: rgba($j-green, .5);
+$body-tertiary-bg: $body-bg;
+
+// $nav-tabs-link-active-color: $body-tertiary-color;
+// $nav-pills-link-active-color: $body-tertiary-color;
+$component-active-color: $j-green;
+$component-active-bg: rgba(0,0,0,0);
+
+// for hover
+$link-shade-percentage: 0%;
+$link-hover-decoration: underline;
+$code-color-dark: $j-blue;
+
+// To allow a negative margin on the banner photo
+$enable-negative-margins: true

@@ -1,0 +1,18 @@
+<!-- z-reset sets the z-index to default -->
+<footer id="footer" class="row d-flex flex-wrap text-bg-dark justify-content-between align-items-center py-3 my-4 border-top sticky-xxl-bottom z-reset text-body-secondary">
+
+    <p class="col mb-0 justify-content-start">&copy; 2024 Jillian Augustine</p>
+
+    <a href="/"
+        class="col d-flex align-items-center justify-content-center font-monospace mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none fs-3 text-body-tertiary px-3">j
+    </a>
+
+    <p class="nav col mb-0 justify-content-end">
+        {% assign about_item = site.data.navigation.main_navigation | where: "name", "About" | first %}
+        <span class="nav-item">
+            <a class="nav-link" href="{{ about_item.link }}">
+                {{ about_item.name }}
+            </a>
+        </span>
+    </p>
+</footer>

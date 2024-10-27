@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<!-- This layout keeps the main content outside a container div.
+The main content using this layout should be wrapped in a container div. 
+-->
+<div class="container">
+    {% include body/header.html %}
+</div>
+    {{ content }}
+<div class="container">
+    {% include body/footer.html %}
+</div>

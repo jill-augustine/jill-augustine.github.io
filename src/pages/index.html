@@ -1,0 +1,51 @@
+---
+title:
+subtitle:
+sitemap:
+priority: 0.9
+layout: page_without_container
+focus_areas: ["cloud-based architecture", "data management", "data platform infrastructure", "data visualisation", "data science", "machine
+learning"]
+industries: ["software development", "professional services", "manufacturing", "telecom"]
+---
+<div class="text-center bg-white mt-n4">
+  <img src="assets/img/202410/0M9A9490.jpg" alt="&copy; Marc Babin" height="200px">
+</div>
+
+<div class="container my-2 my-md-4">
+  <p>I am software developer, data consultant, speaker, and engineering manager. I am currently Team Lead for Insights
+    at <a href="https://anyline.com/">Anyline</a> where, together with my team, I manage the data platform and the
+    insights generated from it.
+    <br>
+    Using data to create value and answer questions is a key interest of mine and a driver of the work I do. My approach
+    when working with data is to use the tools that get the job done, independent of programming language, cloud
+    provider or other tooling. This allows me to take a flexible approach to solution design and development.
+  </p>
+
+  <div class="row align-items-center text-center justify-content-evenly my-1 my-md-3">
+    <div class="col-auto p-3">
+      <ul class="text-body-secondary p-0">
+        <li class="fs-4 list-group-item p-1 text-body-tertiary">
+          Focus areas
+        </li>
+        {% for item in page.focus_areas %}
+        <li class="list-group-item p-1">{{ item }}</li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="col-auto p-3">
+        <ul class="text-body-secondary p-0">
+
+        <li class="fs-4 list-group-item p-1 text-body-tertiary">
+          Industries
+        </li>
+          {% for item in page.industries %}
+          <li class="list-group-item p-1">{{ item }}</li>
+          {% endfor %}
+        </ul>
+    </div>
+  </div>
+
+  <p>Read more about my professional background, and reach out to me about consulting services and speaking opportunities on <a href="https://www.linkedin.com/in/jillianaugustine/">LinkedIn</a>.
+  </p>
+</div>
