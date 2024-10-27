@@ -1,5 +1,7 @@
 # Gemfile.lock
 
+*.zip
+
 *HelloAnalytics.py
 HelloAnalytics2.py
 *key.json

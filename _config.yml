@@ -1,24 +1,30 @@
 # https://jekyllrb.com/docs/configuration/options/
 # global configurations
 
-# source folder
-source: source
-destination: docs
-# folders to exclude from build (relative to source)
-exclude:
-  - _data/WomenInTechnologySpotlight
-  - HelloAnalytics.py
-  - HelloAnalytics2.py
-  - userexplorer-jillcodesua-key.json
+source: src
+destination: dist
+incremental: true
+
+# folders to include/exclude from build (relative to source)
+include:
+  - pages
 
 
 # build configurations
 baseurl: "" # the subpath of your site, e.g. /blog/
 
+defaults:
+  - scope:
+      path: "pages"  # limit scope to `pages` dir
+    values:
+      permalink: :basename
+      layout: page
+
+
 # other configurations
 
 # Site settings
-title: Jill Augustine
+title: jill.codes
 description: 
 
 url: "www.jill.codes" # the base hostname & protocol for your site
@@ -27,14 +33,10 @@ author:
   fullname: Jillian Augustine, PhD.
   github: jill-augustine
   linkedin: jillianaugustine
-  twitter: jill_codes
+  email: jaugur.ds@gmail.com
+  # instagram: jill_codes
 
 google_analytics: G-SB9G1QSXQ2
-
-# Syntax highlighting
-highlightstyle: 'agate'
-styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
-
 
 # Build settings
 highlighter: null
