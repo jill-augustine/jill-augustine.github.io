@@ -12,11 +12,14 @@ $body-tertiary-bg-dark: $body-bg-dark;
 // $headings-color-dark: $j-green;
 $link-color-dark: $body-secondary-color-dark;
 // $link-hover-color-dark: shift-color($link-color-dark, -$link-shade-percentage);
-$link-hover-color-dark: $j-green;
+$link-hover-color-dark: null;
+$btn-link-hover-color: $j-white;
+$active-border-color: transparent;
 $navbar-dark-brand-color: $body-tertiary-color-dark;
 
 $component-active-color: $body-tertiary-color-dark;
 $component-active-bg: none;
 $nav-pills-link-active-color: $j-green;
+$btn-active-color: $j-green;
 $nav-pills-link-active-bg: none;
 $code-color-dark: $j-blue;

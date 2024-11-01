@@ -1,8 +1,8 @@
 name: jill
 
 services:
-  jekyll:
-    build:
+  jekyll-serve:
+    build: &compose_build
       context: .
       dockerfile: Dockerfile
       args:
@@ -14,6 +14,13 @@ services:
       - ".:/jekyll/."
     command: bundle exec jekyll serve --host 0.0.0.0 --port 5000
 
-    # To update gems according to bundle file run `docker compose run --rm jekyll bundle install`
-    # To build the site tun `docker compose run --rm jekyll bundle exec jekyll build`
+  jekyll-build:
+      build:
+        *compose_build
+      volumes:
+        - ".:/jekyll/."
+      command: bundle exec jekyll build
+
+    # To update gems according to bundle file run `docker compose run --rm -v ".:/jekyll/." jekyll bundle install`
+    # To build the site run `docker compose run --rm -v ".:/jekyll/." jekyll bundle exec jekyll build`
     # To see help options run `docker compose run --rm bundle exec jekyll serve --help`

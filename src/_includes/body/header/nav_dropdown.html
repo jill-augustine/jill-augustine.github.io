@@ -1,0 +1,19 @@
+<li class="nav nav-item dropdown">
+    <a class="{{ 'nav-link text-decoration-none pe-0 ' | append: active_page }}"
+        aria-current="{{ aria_current }}" href="{{ item.link }}" role="button">
+            {{ item.name }}
+    </a>
+    <nav class="{{'nav-link text-decoration-none dropdown-toggle dropdown-toggle-split ps-2 ' | append: active_page }}"
+        aria-current="{{ aria_current }}" data-bs-toggle="dropdown" data-bs-auto-close="outside"
+        aria-expanded="false" role="button"><span class="visually-hidden">Toggle Dropdown</span>
+    </nav>
+    <ul class="dropdown-menu dropdown-menu-end">
+        {% for section in item.sections %}
+        <li>
+            <a class="nav-link dropdown-item text-body-primary" href="{{ item.link }}#{{ section.link }}">
+                {{ section.name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</li>

@@ -4,6 +4,8 @@
 source: src
 # build location must be `docs` (or root) for github pages to work
 destination: docs
+includes_dir: _includes
+data_dir: _data
 incremental: true
 
 # folders to include/exclude from build (relative to source)
