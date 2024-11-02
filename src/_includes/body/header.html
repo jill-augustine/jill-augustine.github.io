@@ -1,10 +1,11 @@
 <!-- Hamburger menu for navbar on right for mobile?  -->
-<header class="row d-flex flex-wrap text-bg-dark justify-content-between py-3 mb-4 border-bottom sticky-md-top">
+<header class="container-fluid px-0 justify-content-center bg-body d-flex flex-wrap mb-4 sticky-top">
+  <div class="container row px-0 justify-content-between py-3 border-bottom">
   <p class="col-md-4 mb-3 mb-md-0 me-md-auto lh-sm font-monospace">
   <a href="/" class="row text-start text-decoration-none">
     <span class="fs-1 text-body-tertiary">{{ site.title }}</span>
-  </a>
   <span class="small text-body-secondary float-start">all things data</span>
+  </a>
 </p>
   <ul class="d-flex col-auto nav nav-pills ms-md-auto align-items-center" id="navbar-header">
         {% for item in site.data.navigation.main_navigation %}
@@ -12,7 +13,7 @@
             {% continue %}
           {% endif %}
           {% if page.url==item.link or page.url=="/index" and item.link=="/" %}
-            {% assign active_page = "active" %}
+            {% assign active_page = "text-body-tertiary active" %}
             {% assign aria_current = "page" %}
           {% else %}
            {% assign active_page = "" %}
@@ -26,4 +27,5 @@
           {% endif%}
         {% endfor %}
   </ul>
+  </div>
 </header>

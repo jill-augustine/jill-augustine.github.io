@@ -1,7 +1,7 @@
 name: jill
 
 services:
-  jekyll-serve:
+  serve:
     build: &compose_build
       context: .
       dockerfile: Dockerfile
@@ -14,7 +14,7 @@ services:
       - ".:/jekyll/."
     command: bundle exec jekyll serve --host 0.0.0.0 --port 5000
 
-  jekyll-build:
+  build:
       build:
         *compose_build
       volumes:
