@@ -1,0 +1,21 @@
+<li class="nav nav-item dropdown">
+    <div class="{{ 'nav-link text-decoration-none dropdown-toggle ' | append: active_page }}"
+        aria-current="{{ aria_current }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="true"
+        aria-expanded="false" >
+            {{ item.name }}
+    </div>
+    <ul class="dropdown-menu dropdown-menu-end p-0">
+        {% for section in item.sections %}
+        <li>
+            <a class="nav nav-link dropdown-item text-body-primary" href="{{ item.link }}#{{ section.link }}">
+                {{ section.name }}
+            </a>
+        </li>
+        {% unless forloop.last%}
+        <li>
+            <hr class="dropdown-divider m-0">
+        </li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
+</li>

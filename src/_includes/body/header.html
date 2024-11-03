@@ -1,57 +1,31 @@
 <!-- Hamburger menu for navbar on right for mobile?  -->
-<header class="row d-flex flex-wrap text-bg-dark justify-content-between py-3 mb-4 border-bottom sticky-md-top">
+<header class="container-fluid px-0 justify-content-center bg-body d-flex flex-wrap mb-4 sticky-top">
+  <div class="container row px-0 justify-content-between py-3 border-bottom">
   <p class="col-md-4 mb-3 mb-md-0 me-md-auto lh-sm font-monospace">
   <a href="/" class="row text-start text-decoration-none">
     <span class="fs-1 text-body-tertiary">{{ site.title }}</span>
-  </a>
   <span class="small text-body-secondary float-start">all things data</span>
+  </a>
 </p>
   <ul class="d-flex col-auto nav nav-pills ms-md-auto align-items-center" id="navbar-header">
         {% for item in site.data.navigation.main_navigation %}
           {% if item.name == "About" %}
             {% continue %}
-          {% elsif item.sections %}
-            <li class="nav nav-item dropdown">
-              <!-- operators (or, and) evaluated from right to left -->
-              <a 
-              {% if page.url==item.link or page.url=="/index" and item.link=="/" %}
-                class="nav-link active dropdown-toggle text-decoration-none"
-                aria-current="page" href="{{ item.link }}"
-                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
-                role="button"
-              {% else %}
-                class="nav-link dropdown-toggle text-decoration-none" aria-current="false"
-                href="{{ item.link }}"
-                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
-                role="button"
-              {% endif %}>
-                {{ item.name }}
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                {% for section in item.sections %}
-                <li>
-                  <a class="nav-link dropdown-item text-body-primary" href="{{ item.link }}#{{ section.link }}">
-                    {{ section.name }}
-                  </a>
-                </li>
-                {% endfor %}
-              </ul>
-            </li>
-          {% else %}
-            <li class="nav-item">
-              <!-- operators (or, and) evaluated from right to left -->
-              <a
-              {% if page.url==item.link or page.url=="/index" and item.link=="/" %}
-                  class="nav-link active text-decoration-none"
-                  aria-current="page" href="{{ item.link }}"
-                {% else %}
-                  class="nav-link text-decoration-none" aria-current="false"
-                  href="{{ item.link }}"
-                {% endif %}>
-                {{ item.name }}
-              </a>
-            </li>
           {% endif %}
+          {% if page.url==item.link or page.url=="/index" and item.link=="/" %}
+            {% assign active_page = "text-body-tertiary active" %}
+            {% assign aria_current = "page" %}
+          {% else %}
+           {% assign active_page = "" %}
+           {% assign aria_current = "false" %}
+          {% endif %}
+
+          {% if item.sections %}
+            {% include body/header/nav_dropdown.html%}
+          {% else %}
+            {% include body/header/nav_no_dropdown.html%}
+          {% endif%}
         {% endfor %}
   </ul>
+  </div>
 </header>
