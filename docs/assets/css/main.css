@@ -1,6 +1,12 @@
 #footer {
   z-index: 1000; }
 
+.nav-anchor {
+  scroll-margin-top: 9.5rem; }
+
+@media (min-width: 768px) {
+  .nav-anchor {
+    scroll-margin-top: 6.5rem; } }
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
