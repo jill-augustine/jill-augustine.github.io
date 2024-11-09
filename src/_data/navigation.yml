@@ -3,13 +3,13 @@ main_navigation:
     link: /
   - name: Reading List
     link: /readinglist
-    sections:
-    - name: Code
-      link: code
-    - name: Systems
-      link: systems
-    - name: People
-      link: people
+    # sections:
+    # - name: Code
+    #   link: code
+    # - name: Systems
+    #   link: systems
+    # - name: People
+    #   link: people
   - name: Talks & Interviews
     link: /talks
     sections:
@@ -34,4 +34,3 @@ main_navigation:
       link: privacystatement
     - name: Disclaimer
       link: disclaimer
-

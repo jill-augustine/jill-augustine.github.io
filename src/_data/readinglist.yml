@@ -1,0 +1,47 @@
+description: |
+  A collection of books I've read, learned from, and recommend. I'm continuously updating the list and am always open to new book recommendations. Contact me to share your suggestions.
+
+content:
+  code:
+    - title: "Tidy First?: A Personal Exercise in Empirical Software Design"
+      author: Kent Beck
+      link: https://www.oreilly.com/library/view/tidy-first/9781098169022/
+
+  systems:
+    - title: "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems"
+      author: Martin Kleppmann
+      link: https://dataintensive.net/
+
+    - title: "Kill It with Fire: Manage Aging Computer Systems (and Future Proof Modern Ones)"
+      author: Marianne Bellotti
+      link: https://www.bellotti.tech/about
+
+    - title: "Team Topologies: Organizing Business and Technology Teams for Fast Flow"
+      author: Manuel Pais, Matthew Skelton
+      link: https://teamtopologies.com/book
+
+    - title: "Outcomes Over Output: Why Customer Behavior Is The Key Metric For Business Success"
+      author: Joshua Seiden
+      link: https://www.joshuaseiden.com/books
+
+    - title: 
+      author: 
+      link: 
+
+  people:
+    - title: "The Making of a Manager: What to Do When Everyone Looks to You"
+      author: Julie Zhuo
+      link: https://www.juliezhuo.com/book/manager.html
+
+    - title: "The Culture Map: Breaking Through the Invisible Boundaries of Global Business"
+      author: Erin Meyer
+      link: https://erinmeyer.com/books/the-culture-map/
+
+    - title: "Staff Engineer: Leadership beyond the management track"
+      author: Will Larson
+      link: https://staffeng.com/book
+
+    - title: "Crucial Conversations: Tools for Talking When Stakes Are High"
+      author: Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler
+      link: https://cruciallearning.com/books/crucial-conversations-book/
+      
