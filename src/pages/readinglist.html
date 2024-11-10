@@ -1,14 +1,35 @@
 ---
 title: Reading List
 subtitle: 
-<!-- headings: [Code, Systems, People] -->
 ---
 
-<main class="container my-2 my-md-4">
-    <p>{{ site.data.readinglist.description }}</p>
+{% assign description = site.data.readinglist.description %}
+{% assign sections = site.data.readinglist.sections %}
 
-    {% for section in site.data.readinglist %}
-    <p>{{ section }}</p>
+<main class="container my-2 my-md-4">
+    <p class="pb-2">
+        {% for line in description %}
+            {{ line }}
+            {% unless forloop.last %}
+                <br>
+            {% endunless %}
+        {% endfor %}
+        </p>
+    <div class="row">
+    {% for section in sections %}
+        {% for item in section.items %}
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 py-2">
+            <div class="card h-100">
+        <div class="card-body">
+            <a href="{{ item.link }}">
+                <span>{{ item.title | strip }}</span><br>
+                <span class="text-body">{{ item.author | strip }}</span>
+            </a>
+        </div>
+        </div>
+            </div>
+        {% endfor %}
     {% endfor %}
+        </div>
 </main>
 
