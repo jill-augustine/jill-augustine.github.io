@@ -21,6 +21,6 @@ services:
         - ".:/jekyll/."
       command: bundle exec jekyll build
 
-    # To update gems according to bundle file run `docker compose run --rm -v ".:/jekyll/." jekyll bundle install`
+    # To update gems according to bundle file run `docker compose run --rm -v ".:/jekyll/." serve bundle install`
     # To build the site run `docker compose run --rm -v ".:/jekyll/." jekyll bundle exec jekyll build`
     # To see help options run `docker compose run --rm bundle exec jekyll serve --help`
