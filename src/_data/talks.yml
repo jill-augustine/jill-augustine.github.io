@@ -1,0 +1,24 @@
+description: Selected talks and interviews.
+
+sections:
+  - name: null
+    items:
+      - host: Women && Code - Python Meetup
+        title: 'Recommended for You: an introduction to Python for recommender systems'
+        date: 2024/05
+
+      - host: Vienna Data Science Group
+        title: Python Coding Best Practices
+        date: 2023/02
+
+      - host: WienerFestWochen - ÖMSUBM (Austrian Museum for Black Entertainment and Music)
+        title: Diversity in the Digital Space
+        date: 2022/02
+
+      - host: WeAreDevelopers Congress Vienna
+        title: Data-Driven Process Optimisation at Mondi
+        date: 2019/11
+
+      - host: Big Data LDN
+        title: How Mondi Does Digital
+        date: 2019/11
