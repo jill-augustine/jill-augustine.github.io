@@ -12,19 +12,19 @@ main_navigation:
     #   link: people
   - name: Talks & Interviews
     link: /talks
-    sections:
-    - name: Women In Technology Spotlight 2021
-      link: WITS2021
-    - name: Austrian AI Podcast 2021
-      link: AustrianAIPodcast2021
-    - name: Women In Data Science CEE 2021
-      link: WIDSCEE2021
-    - name: Mondi & WeAreDevelopers 2019
-      link: MondiWAD2019
-    - name: Big Data LDN 2019
-      link: BigDataLDN2019
-    - name: Google's WomenTechmakers Vienna 2019
-      link: WomenTechmakers2019
+    # sections:
+    # - name: Women In Technology Spotlight 2021
+    #   link: WITS2021
+    # - name: Austrian AI Podcast 2021
+    #   link: AustrianAIPodcast2021
+    # - name: Women In Data Science CEE 2021
+    #   link: WIDSCEE2021
+    # - name: Mondi & WeAreDevelopers 2019
+    #   link: MondiWAD2019
+    # - name: Big Data LDN 2019
+    #   link: BigDataLDN2019
+    # - name: Google's WomenTechmakers Vienna 2019
+    #   link: WomenTechmakers2019
   - name: About
     link: /about
     sections:
