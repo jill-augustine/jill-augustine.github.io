@@ -8,7 +8,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Build Image
         run: |
-          docker compose build build
+          docker compose build buildsite
       - name: Test jekyll build in container
         run: |
-          docker compose up build
+          docker compose up buildsite
