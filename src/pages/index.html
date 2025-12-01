@@ -4,7 +4,8 @@ subtitle:
 sitemap:
 priority: 0.9
 layout: page
-focus_areas: ["cloud-based architecture", "data management", "data platform infrastructure", "data visualisation", "data science", "machine
+focus_areas: ["cloud-based architecture", "data management", "data platform infrastructure", "data visualisation", "data
+science", "machine
 learning"]
 industries: ["software development", "professional services", "manufacturing", "telecom"]
 ---
@@ -13,9 +14,8 @@ industries: ["software development", "professional services", "manufacturing", "
 </div>
 
 <main class="container my-2 my-md-4">
-  <p>I am software developer, data consultant, speaker, and engineering manager. I am currently Team Lead for Insights
-    at <a href="https://anyline.com/">Anyline</a> where, together with my team, I manage the data platform and the
-    insights generated from it.
+  <p>I am software developer, data consultant, speaker, and engineering manager. My focus is developing and managing
+    cloud data platforms and the insights they generate.
     <br>
     Using data to create value and answer questions is a key interest of mine and a driver of the work I do. My approach
     when working with data is to use the tools that get the job done, independent of programming language, cloud
@@ -31,21 +31,23 @@ industries: ["software development", "professional services", "manufacturing", "
         {% for item in page.focus_areas %}
         <li class="list-group-item p-1">{{ item }}</li>
         {% endfor %}
-        </ul>
+      </ul>
     </div>
     <div class="col-auto p-3">
-        <ul class="text-body-secondary p-0">
+      <ul class="text-body-secondary p-0">
 
         <li class="fs-4 list-group-item p-1 text-body-tertiary">
           Industries
         </li>
-          {% for item in page.industries %}
-          <li class="list-group-item p-1">{{ item }}</li>
-          {% endfor %}
-        </ul>
+        {% for item in page.industries %}
+        <li class="list-group-item p-1">{{ item }}</li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 
-  <p>Read more about my professional background on <a href="https://www.linkedin.com/in/jillianaugustine/">LinkedIn</a>. For inquiries regarding consulting services, workshops and speaking engagements, please send an email to <span class="text-body-tertiary">contact@jill.codes</span>
+  <p>Read more about my professional background on <a href="https://www.linkedin.com/in/jillianaugustine/">LinkedIn</a>.
+    For inquiries regarding consulting services, workshops and speaking engagements, please send an email to <span
+      class="text-body-tertiary">contact@jill.codes</span>
   </p>
 </main>
