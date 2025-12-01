@@ -35,3 +35,23 @@ You can check the error code with
 ``` bash
 docker compose run --rm jekyll bundle exec jekyll build; echo $?
 ```
+
+## Notes
+
+To update gems according to bundle file run
+
+```shell
+docker compose run --rm -v ".:/jekyll/." buildsite bundle install
+```
+
+To build the site run
+
+```shell
+docker compose run --rm -v ".:/jekyll/." buildsite
+```
+
+To see help options run
+
+```shell
+docker compose run --rm buildsite bundle exec jekyll serve --help
+```
